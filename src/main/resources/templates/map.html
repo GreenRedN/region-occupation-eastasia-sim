@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>지역 점령 시뮬레이터 - 동아시아</title>
+  <link rel="stylesheet" th:href="@{/css/app.css}" href="/css/app.css"/>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="c"></canvas>
+
+  <div class="zoomCtl">
+    <button id="zoomIn" title="줌 인">＋</button>
+    <button id="zoomOut" title="줌 아웃">－</button>
+    <button id="resetView" title="뷰 초기화">⟲</button>
+    <button id="togglePanel" title="설정">⚙</button>
+  </div>
+
+  <div class="panel" id="panel">
+    <div class="panelHeader">
+      <div class="title">CK 방식(픽셀 ID 맵) — 동아시아 ADM1 (4K, v10)</div>
+      <button class="closeBtn" id="closePanel">닫기</button>
+    </div>
+    <div class="small">
+      ✅ 니가타현 표기 수정<br/>
+      ✅ 드래그 이동 시 점령창 안 뜨게 처리<br/>
+      ✅ <b>도쿄도 소속 원거리 섬만 제거</b> (오키나와는 유지)
+    </div>
+
+    <div class="row">
+      <span class="kbd">검색</span>
+      <input id="searchBox" list="regionList" type="text" placeholder="예: 오키나와 / 도쿄 / 세종 / 마카오 ..."/>
+      <datalist id="regionList">
+        <option value="CN · 간쑤성" data-key="CN:Province:Gansu:6dcebf99"></option><option value="CN · 광둥성" data-key="CN:Province:Guangdong:a15c1e9d"></option><option value="CN · 광시 좡족 자치구" data-key="CN:Autonomous Region:Guangxi:da309f8b"></option><option value="CN · 구이저우성" data-key="CN:Province:Guizhou:e586219f"></option><option value="CN · 내몽골 자치구" data-key="CN:Autonomous Region:Inner Mongolia:e87c8fe4"></option><option value="CN · 닝샤 후이족 자치구" data-key="CN:Autonomous Region:Ningxia:0099b1e9"></option><option value="CN · 랴오닝성" data-key="CN:Province:Liaoning:8f1ed029"></option><option value="CN · 마카오" data-key="CN:Special Administrative Region:Macau:9da73f33"></option><option value="CN · 베이징시" data-key="CN:Municipality:Beijing:403eee54"></option><option value="CN · 산둥성" data-key="CN:Province:Shandong:491d7751"></option><option value="CN · 산시성(산서)" data-key="CN:Province:Shanxi:6c4a3297"></option><option value="CN · 산시성(섬서)" data-key="CN:Province:Shaanxi:9fb18fd6"></option><option value="CN · 상하이시" data-key="CN:Municipality:Shanghai:8eb25fa9"></option><option value="CN · 신장 위구르 자치구" data-key="CN:Autonomous Region:Xinjiang:84115ba4"></option><option value="CN · 쓰촨성" data-key="CN:Province:Sichuan:23fdd5ef"></option><option value="CN · 안후이성" data-key="CN:Province:Anhui:6738f8d1"></option><option value="CN · 윈난성" data-key="CN:Province:Yunnan:9a8f4122"></option><option value="CN · 장시성" data-key="CN:Province:Jiangxi:cbdf7f8c"></option><option value="CN · 장쑤성" data-key="CN:Province:Jiangsu:c6cd8143"></option><option value="CN · 저장성" data-key="CN:Province:Zhejiang:d1a43067"></option><option value="CN · 지린성" data-key="CN:Province:Jilin:d457453a"></option><option value="CN · 충칭시" data-key="CN:Municipality:Chongqing:a5f4cc64"></option><option value="CN · 칭하이성" data-key="CN:Province:Qinghai:f5371d3d"></option><option value="CN · 톈진시" data-key="CN:Municipality:Tianjin:fae70884"></option><option value="CN · 티베트 자치구" data-key="CN:Autonomous Region:Tibet:d2d6fe59"></option><option value="CN · 푸젠성" data-key="CN:Province:Fujian:1adaa5fc"></option><option value="CN · 하이난성" data-key="CN:Province:Hainan:cb1bc4ed"></option><option value="CN · 허난성" data-key="CN:Province:Henan:59789a09"></option><option value="CN · 허베이성" data-key="CN:Province:Hebei:eabbe26d"></option><option value="CN · 헤이룽장성" data-key="CN:Province:Heilongjiang:82d7965d"></option><option value="CN · 홍콩" data-key="CN:Special Administrative Region:Hong Kong:f1d8fb9e"></option><option value="CN · 후난성" data-key="CN:Province:Hunan:ec18d9ea"></option><option value="CN · 후베이성" data-key="CN:Province:Hubei:7b28c583"></option><option value="JP · 가고시마현" data-key="JP:Prefecture:Kagoshima:cbda3e9b"></option><option value="JP · 가나가와현" data-key="JP:Prefecture:Kanagawa:ba2342d2"></option><option value="JP · 고치현" data-key="JP:Prefecture:Kochi:88effae6"></option><option value="JP · 교토부" data-key="JP:Urban Prefecture:Kyoto:e9257984"></option><option value="JP · 구마모토현" data-key="JP:Prefecture:Kumamoto:70a4a098"></option><option value="JP · 군마현" data-key="JP:Prefecture:Gunma:43309744"></option><option value="JP · 기후현" data-key="JP:Prefecture:Gifu:c68d042a"></option><option value="JP · 나가노현" data-key="JP:Prefecture:Nagano:f16ce1e1"></option><option value="JP · 나가사키현" data-key="JP:Prefecture:Nagasaki:dbc7bc2e"></option><option value="JP · 나라현" data-key="JP:Prefecture:Nara:9faacc0e"></option><option value="JP · 니가타현" data-key="JP:Prefecture:Niigata:d7cd3b41"></option><option value="JP · 도야마현" data-key="JP:Prefecture:Toyama:87dae924"></option><option value="JP · 도치기현" data-key="JP:Prefecture:Tochigi:b7ad4407"></option><option value="JP · 도쿄도" data-key="JP:Metropolis:Tokyo:ed52c2bf"></option><option value="JP · 도쿠시마현" data-key="JP:Prefecture:Tokushima:949c746e"></option><option value="JP · 돗토리현" data-key="JP:Prefecture:Tottori:95eaa957"></option><option value="JP · 미야기현" data-key="JP:Prefecture:Miyagi:21d2d160"></option><option value="JP · 미야자키현" data-key="JP:Prefecture:Miyazaki:fb180e84"></option><option value="JP · 미에현" data-key="JP:Prefecture:Mie:807581ce"></option><option value="JP · 사가현" data-key="JP:Prefecture:Saga:e7b54e98"></option><option value="JP · 사이타마현" data-key="JP:Prefecture:Saitama:1d6fe9b7"></option><option value="JP · 시가현" data-key="JP:Prefecture:Shiga:91b0548e"></option><option value="JP · 시마네현" data-key="JP:Prefecture:Shimane:929f0da7"></option><option value="JP · 시즈오카현" data-key="JP:Prefecture:Shizuoka:6b6ef69a"></option><option value="JP · 아오모리현" data-key="JP:Prefecture:Aomori:c243bcdc"></option><option value="JP · 아이치현" data-key="JP:Prefecture:Aichi:c65c4ec7"></option><option value="JP · 아키타현" data-key="JP:Prefecture:Akita:376c81bd"></option><option value="JP · 야마가타현" data-key="JP:Prefecture:Yamagata:52c33275"></option><option value="JP · 야마구치현" data-key="JP:Prefecture:Yamaguchi:d22eaa85"></option><option value="JP · 야마나시현" data-key="JP:Prefecture:Yamanashi:95470973"></option><option value="JP · 에히메현" data-key="JP:Prefecture:Ehime:86aa42cf"></option><option value="JP · 오사카부" data-key="JP:Urban Prefecture:Osaka:e6993b63"></option><option value="JP · 오이타현" data-key="JP:Prefecture:Oita:5aa28eba"></option><option value="JP · 오카야마현" data-key="JP:Prefecture:Okayama:97dcbc35"></option><option value="JP · 오키나와현" data-key="JP:Prefecture:Okinawa:8ea9d134"></option><option value="JP · 와카야마현" data-key="JP:Prefecture:Wakayama:503f8f4d"></option><option value="JP · 이바라키현" data-key="JP:Prefecture:Ibaraki:9d888594"></option><option value="JP · 이시카와현" data-key="JP:Prefecture:Ishikawa:353f8b92"></option><option value="JP · 이와테현" data-key="JP:Prefecture:Iwate:3503cf24"></option><option value="JP · 지바현" data-key="JP:Prefecture:Chiba:ff1a78fb"></option><option value="JP · 카가와현" data-key="JP:Prefecture:Kagawa:a0c12885"></option><option value="JP · 홋카이도" data-key="JP:Circuit:Hokkaido:a20322cf"></option><option value="JP · 효고현" data-key="JP:Prefecture:Hyogo:850f9275"></option><option value="JP · 후쿠시마현" data-key="JP:Prefecture:Fukushima:c527223a"></option><option value="JP · 후쿠오카현" data-key="JP:Prefecture:Fukuoka:a709314b"></option><option value="JP · 후쿠이현" data-key="JP:Prefecture:Fukui:813a8dc0"></option><option value="JP · 히로시마현" data-key="JP:Prefecture:Hiroshima:5b03c670"></option><option value="KP · 강원도" data-key="KP:Province:Kangwon:f6b49c3e"></option><option value="KP · 개성시" data-key="KP:Special City:Kaesong:445e30f8"></option><option value="KP · 남포시" data-key="KP:Special City:Nampo:c6814498"></option><option value="KP · 라선시" data-key="KP:Special City:Rason:04da658b"></option><option value="KP · 양강도" data-key="KP:Province:Ryanggang:acad816b"></option><option value="KP · 자강도" data-key="KP:Province:Chagang:5427e1f3"></option><option value="KP · 평안남도" data-key="KP:Province:South Pyongan:6bccc0af"></option><option value="KP · 평안북도" data-key="KP:Province:North Pyongan:e0be1ea3"></option><option value="KP · 평양시" data-key="KP:Directly Governed City:Pyongyang:9a710217"></option><option value="KP · 함경남도" data-key="KP:Province:South Hamgyong:3b6cdf42"></option><option value="KP · 함경북도" data-key="KP:Province:North Hamgyong:7131396f"></option><option value="KP · 황해남도" data-key="KP:Province:South Hwanghae:105b42f2"></option><option value="KP · 황해북도" data-key="KP:Province:North Hwanghae:9758a0ab"></option><option value="KR · 강원특별자치도" data-key="KR:Special Self-Governing Province:Gangwon-do:2d2deab8"></option><option value="KR · 경기도" data-key="KR:Province:Gyeonggi-do:884296e1"></option><option value="KR · 경상남도" data-key="KR:Province:Gyeongsangnam-do:a1208ee8"></option><option value="KR · 경상북도" data-key="KR:Province:Gyeongsangbuk-do:c544cde4"></option><option value="KR · 광주광역시" data-key="KR:Metropolitan City:Gwangju:5ca68d4b"></option><option value="KR · 대구광역시" data-key="KR:Metropolitan City:Daegu:eb690973"></option><option value="KR · 대전광역시" data-key="KR:Metropolitan City:Daejeon:26528ea2"></option><option value="KR · 부산광역시" data-key="KR:Metropolitan City:Busan:13f8f94e"></option><option value="KR · 서울특별시" data-key="KR:Special City:Seoul:5e1d59df"></option><option value="KR · 세종특별자치시" data-key="KR:Special Self-Governing City:Sejong:d3a55bce"></option><option value="KR · 울산광역시" data-key="KR:Metropolitan City:Ulsan:a81a82a1"></option><option value="KR · 인천광역시" data-key="KR:Metropolitan City:Incheon:ac671720"></option><option value="KR · 전라남도" data-key="KR:Province:Jeollanam-do:27ee690e"></option><option value="KR · 전북특별자치도" data-key="KR:Special Self-Governing Province:Jeonbuk-do:9a0c7a9a"></option><option value="KR · 제주특별자치도" data-key="KR:Special Self-Governing Province:Jeju-do:c0a73876"></option><option value="KR · 충청남도" data-key="KR:Province:Chungcheongnam-do:655ada93"></option><option value="KR · 충청북도" data-key="KR:Province:Chungcheongbuk-do:a7508052"></option><option value="MN · 고비숨베르" data-key="MN:Province:Govisümber:7c83eefd"></option><option value="MN · 고비알타이" data-key="MN:Province:Govi-Altai:49693729"></option><option value="MN · 다르항올" data-key="MN:Province:Darkhan-Uul:df3f92ac"></option><option value="MN · 도르노고비" data-key="MN:Province:Dornogovi:e976d05c"></option><option value="MN · 도르노드" data-key="MN:Province:Dornod:5668378c"></option><option value="MN · 둔드고비" data-key="MN:Province:Dundgovi:37e8364c"></option><option value="MN · 바양울기" data-key="MN:Province:Bayan-Ölgii:21e862c5"></option><option value="MN · 바양홍고르" data-key="MN:Province:Bayankhongor:f6a655dc"></option><option value="MN · 불간" data-key="MN:Province:Bulgan:0c76572a"></option><option value="MN · 셀렝게" data-key="MN:Province:Selenge:9fc5115b"></option><option value="MN · 수흐바타르" data-key="MN:Province:Sükhbaatar:2980f452"></option><option value="MN · 아르항가이" data-key="MN:Province:Arkhangai:3f07a1d3"></option><option value="MN · 오르혼" data-key="MN:Province:Orkhon:ce547659"></option><option value="MN · 옵스" data-key="MN:Province:Uvs:a622eacb"></option><option value="MN · 우부르항가이" data-key="MN:Province:Övörkhangai:dc63659a"></option><option value="MN · 울란바토르" data-key="MN:Municipality:Ulaanbaatar:93cd1342"></option><option value="MN · 움누고비" data-key="MN:Province:Ömnögovi:06cfa9aa"></option><option value="MN · 자브항" data-key="MN:Province:Zavkhan:79856291"></option><option value="MN · 투브" data-key="MN:Province:Töv:d2960029"></option><option value="MN · 헨티" data-key="MN:Province:Khentii:12c7920a"></option><option value="MN · 호브드" data-key="MN:Province:Khovd:0e7df186"></option><option value="MN · 훕스골" data-key="MN:Province:Khövsgöl:a9048daa"></option><option value="TW · 가오슝시" data-key="TW:Special Municipality:Kaohsiung:5e6d83f9"></option><option value="TW · 난터우현" data-key="TW:County:Nantou:48dedc9c"></option><option value="TW · 롄장현" data-key="TW:County:Lienchiang:9cafeaf2"></option><option value="TW · 먀오리현" data-key="TW:County:Miaoli:a5e8a17e"></option><option value="TW · 신베이시" data-key="TW:Special Municipality:New Taipei:99253018"></option><option value="TW · 신주시" data-key="TW:City:Hsinchu:c2d2788c"></option><option value="TW · 신주현" data-key="TW:County:Hsinchu:a4037f7d"></option><option value="TW · 윈린현" data-key="TW:County:Yunlin:6862ce8f"></option><option value="TW · 이란현" data-key="TW:County:Yilan:36389a0c"></option><option value="TW · 자이시" data-key="TW:City:Chiayi:816c0db7"></option><option value="TW · 자이현" data-key="TW:County:Chiayi:ab3753ff"></option><option value="TW · 장화현" data-key="TW:County:Changhua:bff96953"></option><option value="TW · 지룽시" data-key="TW:City:Keelung:0b02213c"></option><option value="TW · 진먼현" data-key="TW:County:Kinmen:d0eab912"></option><option value="TW · 타오위안시" data-key="TW:Special Municipality:Taoyuan:a77136d6"></option><option value="TW · 타이난시" data-key="TW:Special Municipality:Tainan:e1d28468"></option><option value="TW · 타이둥현" data-key="TW:County:Taitung:1ed06d53"></option><option value="TW · 타이베이시" data-key="TW:Special Municipality:Taipei:c751fa14"></option><option value="TW · 타이중시" data-key="TW:Special Municipality:Taichung:87a111ba"></option><option value="TW · 펑후현" data-key="TW:County:Penghu:961bb4d5"></option><option value="TW · 핑둥현" data-key="TW:County:Pingtung:ef8615fd"></option><option value="TW · 화롄현" data-key="TW:County:Hualien:7a041f51"></option>
+      </datalist>
+      <button id="focusBtn">포커스</button>
+
+      <span class="kbd">라벨 모드</span>
+      <select id="labelMode">
+        <option value="zoom" selected>줌 기반(추천)</option>
+        <option value="major">주요만(★/◆/중요)</option>
+        <option value="all">전체</option>
+        <option value="off">끔</option>
+      </select>
+
+      <span class="kbd">라벨 크기</span>
+      <select id="labelSize">
+        <option value="sm">작게</option>
+        <option value="md" selected>보통</option>
+        <option value="lg">크게</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <label><input type="checkbox" id="toggleCountry" checked> <span class="kbd">국경(국가 간)</span></label>
+      <label><input type="checkbox" id="toggleInternal"> <span class="kbd">내부경계(국가 내)</span></label>
+      <label><input type="checkbox" id="toggleCapitals" checked> <span class="kbd">수도(★)</span></label>
+      <label><input type="checkbox" id="toggleSpecial" checked> <span class="kbd">특별행정구역(HK/MO, ◆)</span></label>
+      <button id="resetOwners">소유 초기화</button>
+    </div>
+
+    <div class="row">
+      <span class="kbd">점령 세력</span>
+      <span class="small">아래 칩 클릭해서 선택</span>
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="row" style="margin-top:10px;">
+      <span class="kbd">모드</span>
+      <button id="modeFree" class="modeBtn" data-active="true">자유 점령</button>
+      <button id="modeGame" class="modeBtn" data-active="false">턴제</button>
+      <span class="small">턴제: 유저(B) vs AI(A/C/D/E)</span>
+    </div>
+
+    <div class="gameBox" id="gameBox" style="display:none;"></div>
+
+
+    <div class="row">
+      <span class="kbd">Hover</span> <span id="hoverTxt">-</span>
+    </div>
+    <div class="row">
+      <span class="kbd">Click</span> <span id="clickTxt">-</span>
+    </div>
+
+    <div class="small" style="margin-top:6px;">
+      조작: <span class="kbd">휠/＋/－</span> 줌, <span class="kbd">드래그</span> 이동, <span class="kbd">Alt+클릭</span> 지역 포커스<br/>
+      점령: <span class="kbd">클릭</span> → 확인창 → 예/아니오
+    </div>
+
+    <div class="error" id="errBox"></div>
+  </div>
+
+  <div class="modalBack" id="modalBack">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <h3 id="modalTitle">이 땅을 점령하시겠습니까?</h3>
+      <div class="meta" id="modalMeta">-</div>
+
+      <div class="row" style="margin-top:6px;">
+        <span class="kbd">점령 세력</span>
+        <select id="modalOwner"></select>
+      </div>
+
+      <div class="actions">
+        <button class="btnNo" id="btnNo">아니오</button>
+        <button class="btnYes" id="btnYes">예</button>
+      </div>
+      <div class="hint">단축키: <span class="kbd">Enter</span>=예, <span class="kbd">Esc</span>=취소</div>
+    </div>
+  </div>
+
+</div>
+
+  <!-- v3: Bottom Info Panel -->
+  <div id="bottomPanel" class="bottomPanel">
+    <div class="bpCol bpLeft">
+      <div class="bpTitle" id="bpTitle">지역 정보</div>
+      <div class="bpLine" id="bpMeta">-</div>
+      <div class="bpGrid">
+        <div class="bpItem"><span class="bpK">소유</span><span class="bpV" id="bpOwner">-</span></div>
+        <div class="bpItem"><span class="bpK">가시</span><span class="bpV" id="bpVis">-</span></div>
+        <div class="bpItem"><span class="bpK">자원</span><span class="bpV" id="bpRes">-</span></div>
+        <div class="bpItem"><span class="bpK">금화</span><span class="bpV" id="bpGold">-</span></div>
+        <div class="bpItem"><span class="bpK">인구</span><span class="bpV" id="bpPop">-</span></div>
+        <div class="bpItem"><span class="bpK">민심</span><span class="bpV" id="bpSupport">-</span></div>
+        <div class="bpItem"><span class="bpK">안정</span><span class="bpV" id="bpStability">-</span></div>
+      </div>
+      <div class="bpLine"><span class="bpK">시설</span> <span class="bpV" id="bpFacilities">-</span></div>
+      <div class="bpLine"><span class="bpK">병력</span> <span class="bpV" id="bpUnits">-</span></div>
+      <div class="bpLine bpSmall" id="bpSeen"> </div>
+    </div>
+    <div class="bpCol bpRight">
+      <div class="bpSection">
+        <div class="bpRow">
+          <span class="bpTag" id="bpModeTag">FREE</span>
+          <button class="btn" id="btnGameStart" type="button" title="시작(유저 시작 지역 선택)">시작</button>
+          <select id="aiCount" class="sel" title="AI 수">
+            <option value="1" selected>AI 1</option>
+            <option value="2">AI 2</option>
+            <option value="3">AI 3</option>
+            <option value="4">AI 4</option>
+          </select>
+          <button class="btn" id="btnGamePass" type="button">턴 넘김</button>
+          <button class="btn" id="btnGameReset" type="button">리셋</button>
+        </div>
+
+        <div class="bpRow">
+          <button class="btn primary" id="btnActionAttack" type="button">공격</button>
+          <button class="btn" id="btnActionMove" type="button">육상이동</button>
+          <button class="btn" id="btnActionNavalMove" type="button">해상이동</button>
+        </div>
+
+        <div class="bpRow">
+          <select id="facilityType" class="sel" title="시설 종류">
+            <option value="ADMIN" selected>행정시설</option>
+            <option value="MILITARY">군사시설</option>
+            <option value="PORT">항구</option>
+            <option value="ECONOMY">경제시설</option>
+          </select>
+          <button class="btn" id="btnActionBuild" type="button">건설</button>
+          <button class="btn" id="btnActionRecruit" type="button">모집</button>
+          <button class="btn" id="btnActionSpy" type="button">첩보</button>
+        </div>
+
+        <div class="bpRow">
+          <select id="techType" class="sel" title="기술">
+            <option value="TAX" selected>조세 제도(5)</option>
+            <option value="STEEL">강철 군수(5)</option>
+            <option value="CRYPTO">암호 통신(5)</option>
+          </select>
+          <button class="btn" id="btnTechUnlock" type="button">기술 연구</button>
+        </div>
+
+        <div class="bpStatus">
+          <div class="bpLine"><span class="bpK">상태</span> <span id="gameStatus" class="gstatus">-</span></div>
+          <div class="bpLine bpSmall" id="gameHint">-</div>
+          <pre id="gameLog" class="glog"></pre>
+        </div>
+
+        <div id="bpToast" class="bpToast" style="display:none;"></div>
+      </div>
+
+      <!-- placeholder: existed in settings panel previously; kept for JS compatibility -->
+      <div class="gameBox" id="gameBox" style="display:none;"></div>
+    </div>
+  </div>
+
+<script th:src="@{/js/occupation-api.js}" src="/js/occupation-api.js"></script>
+<script th:src="@{/js/map-ui.js}" src="/js/map-ui.js"></script>
+
+</body>
+</html>
+

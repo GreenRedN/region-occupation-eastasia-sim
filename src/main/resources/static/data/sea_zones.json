@@ -1,0 +1,8 @@
+[
+  {"id":"SEA:EAST_SEA","name_ko":"동해","name_en":"East Sea (Sea of Japan)"},
+  {"id":"SEA:YELLOW_SEA","name_ko":"서해(황해)","name_en":"Yellow Sea"},
+  {"id":"SEA:KOREA_STRAIT","name_ko":"대한해협","name_en":"Korea Strait"},
+  {"id":"SEA:EAST_CHINA_SEA","name_ko":"동중국해","name_en":"East China Sea"},
+  {"id":"SEA:SOUTH_CHINA_SEA","name_ko":"남중국해","name_en":"South China Sea"},
+  {"id":"SEA:OKHOTSK_SEA","name_ko":"오호츠크해","name_en":"Sea of Okhotsk"}
+]

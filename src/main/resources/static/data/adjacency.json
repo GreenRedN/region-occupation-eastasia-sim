@@ -1,0 +1,1390 @@
+[
+  {
+    "key": "CN:Autonomous Region:Guangxi:da309f8b",
+    "neighbors": [
+      "CN:Province:Guangdong:a15c1e9d",
+      "CN:Province:Guizhou:e586219f",
+      "CN:Province:Hunan:ec18d9ea",
+      "CN:Province:Yunnan:9a8f4122"
+    ]
+  },
+  {
+    "key": "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+    "neighbors": [
+      "CN:Autonomous Region:Ningxia:0099b1e9",
+      "CN:Province:Gansu:6dcebf99",
+      "CN:Province:Hebei:eabbe26d",
+      "CN:Province:Heilongjiang:82d7965d",
+      "CN:Province:Jilin:d457453a",
+      "CN:Province:Liaoning:8f1ed029",
+      "CN:Province:Shaanxi:9fb18fd6",
+      "CN:Province:Shanxi:6c4a3297",
+      "MN:Province:Bayankhongor:f6a655dc",
+      "MN:Province:Dornod:5668378c",
+      "MN:Province:Dornogovi:e976d05c",
+      "MN:Province:Govi-Altai:49693729",
+      "MN:Province:Sükhbaatar:2980f452",
+      "MN:Province:Ömnögovi:06cfa9aa"
+    ]
+  },
+  {
+    "key": "CN:Autonomous Region:Ningxia:0099b1e9",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "CN:Province:Gansu:6dcebf99",
+      "CN:Province:Shaanxi:9fb18fd6"
+    ]
+  },
+  {
+    "key": "CN:Autonomous Region:Tibet:d2d6fe59",
+    "neighbors": [
+      "CN:Autonomous Region:Xinjiang:84115ba4",
+      "CN:Province:Qinghai:f5371d3d",
+      "CN:Province:Sichuan:23fdd5ef",
+      "CN:Province:Yunnan:9a8f4122"
+    ]
+  },
+  {
+    "key": "CN:Autonomous Region:Xinjiang:84115ba4",
+    "neighbors": [
+      "CN:Autonomous Region:Tibet:d2d6fe59",
+      "CN:Province:Gansu:6dcebf99",
+      "CN:Province:Qinghai:f5371d3d",
+      "MN:Province:Bayan-Ölgii:21e862c5",
+      "MN:Province:Govi-Altai:49693729",
+      "MN:Province:Khovd:0e7df186"
+    ]
+  },
+  {
+    "key": "CN:Municipality:Beijing:403eee54",
+    "neighbors": [
+      "CN:Municipality:Tianjin:fae70884",
+      "CN:Province:Hebei:eabbe26d"
+    ]
+  },
+  {
+    "key": "CN:Municipality:Chongqing:a5f4cc64",
+    "neighbors": [
+      "CN:Province:Guizhou:e586219f",
+      "CN:Province:Hubei:7b28c583",
+      "CN:Province:Hunan:ec18d9ea",
+      "CN:Province:Shaanxi:9fb18fd6",
+      "CN:Province:Sichuan:23fdd5ef"
+    ]
+  },
+  {
+    "key": "CN:Municipality:Shanghai:8eb25fa9",
+    "neighbors": [
+      "CN:Province:Jiangsu:c6cd8143",
+      "CN:Province:Zhejiang:d1a43067"
+    ]
+  },
+  {
+    "key": "CN:Municipality:Tianjin:fae70884",
+    "neighbors": [
+      "CN:Municipality:Beijing:403eee54",
+      "CN:Province:Hebei:eabbe26d"
+    ]
+  },
+  {
+    "key": "CN:Province:Anhui:6738f8d1",
+    "neighbors": [
+      "CN:Province:Henan:59789a09",
+      "CN:Province:Hubei:7b28c583",
+      "CN:Province:Jiangsu:c6cd8143",
+      "CN:Province:Jiangxi:cbdf7f8c",
+      "CN:Province:Shandong:491d7751",
+      "CN:Province:Zhejiang:d1a43067"
+    ]
+  },
+  {
+    "key": "CN:Province:Fujian:1adaa5fc",
+    "neighbors": [
+      "CN:Province:Guangdong:a15c1e9d",
+      "CN:Province:Jiangxi:cbdf7f8c",
+      "CN:Province:Zhejiang:d1a43067",
+      "TW:County:Kinmen:d0eab912"
+    ]
+  },
+  {
+    "key": "CN:Province:Gansu:6dcebf99",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "CN:Autonomous Region:Ningxia:0099b1e9",
+      "CN:Autonomous Region:Xinjiang:84115ba4",
+      "CN:Province:Qinghai:f5371d3d",
+      "CN:Province:Shaanxi:9fb18fd6",
+      "CN:Province:Sichuan:23fdd5ef",
+      "MN:Province:Govi-Altai:49693729"
+    ]
+  },
+  {
+    "key": "CN:Province:Guangdong:a15c1e9d",
+    "neighbors": [
+      "CN:Autonomous Region:Guangxi:da309f8b",
+      "CN:Province:Fujian:1adaa5fc",
+      "CN:Province:Hunan:ec18d9ea",
+      "CN:Province:Jiangxi:cbdf7f8c",
+      "CN:Special Administrative Region:Hong Kong:f1d8fb9e",
+      "CN:Special Administrative Region:Macau:9da73f33"
+    ]
+  },
+  {
+    "key": "CN:Province:Guizhou:e586219f",
+    "neighbors": [
+      "CN:Autonomous Region:Guangxi:da309f8b",
+      "CN:Municipality:Chongqing:a5f4cc64",
+      "CN:Province:Hunan:ec18d9ea",
+      "CN:Province:Sichuan:23fdd5ef",
+      "CN:Province:Yunnan:9a8f4122"
+    ]
+  },
+  {
+    "key": "CN:Province:Hainan:cb1bc4ed",
+    "neighbors": []
+  },
+  {
+    "key": "CN:Province:Hebei:eabbe26d",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "CN:Municipality:Beijing:403eee54",
+      "CN:Municipality:Tianjin:fae70884",
+      "CN:Province:Henan:59789a09",
+      "CN:Province:Liaoning:8f1ed029",
+      "CN:Province:Shandong:491d7751",
+      "CN:Province:Shanxi:6c4a3297"
+    ]
+  },
+  {
+    "key": "CN:Province:Heilongjiang:82d7965d",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "CN:Province:Jilin:d457453a"
+    ]
+  },
+  {
+    "key": "CN:Province:Henan:59789a09",
+    "neighbors": [
+      "CN:Province:Anhui:6738f8d1",
+      "CN:Province:Hebei:eabbe26d",
+      "CN:Province:Hubei:7b28c583",
+      "CN:Province:Shaanxi:9fb18fd6",
+      "CN:Province:Shandong:491d7751",
+      "CN:Province:Shanxi:6c4a3297"
+    ]
+  },
+  {
+    "key": "CN:Province:Hubei:7b28c583",
+    "neighbors": [
+      "CN:Municipality:Chongqing:a5f4cc64",
+      "CN:Province:Anhui:6738f8d1",
+      "CN:Province:Henan:59789a09",
+      "CN:Province:Hunan:ec18d9ea",
+      "CN:Province:Jiangxi:cbdf7f8c",
+      "CN:Province:Shaanxi:9fb18fd6"
+    ]
+  },
+  {
+    "key": "CN:Province:Hunan:ec18d9ea",
+    "neighbors": [
+      "CN:Autonomous Region:Guangxi:da309f8b",
+      "CN:Municipality:Chongqing:a5f4cc64",
+      "CN:Province:Guangdong:a15c1e9d",
+      "CN:Province:Guizhou:e586219f",
+      "CN:Province:Hubei:7b28c583",
+      "CN:Province:Jiangxi:cbdf7f8c"
+    ]
+  },
+  {
+    "key": "CN:Province:Jiangsu:c6cd8143",
+    "neighbors": [
+      "CN:Municipality:Shanghai:8eb25fa9",
+      "CN:Province:Anhui:6738f8d1",
+      "CN:Province:Shandong:491d7751",
+      "CN:Province:Zhejiang:d1a43067"
+    ]
+  },
+  {
+    "key": "CN:Province:Jiangxi:cbdf7f8c",
+    "neighbors": [
+      "CN:Province:Anhui:6738f8d1",
+      "CN:Province:Fujian:1adaa5fc",
+      "CN:Province:Guangdong:a15c1e9d",
+      "CN:Province:Hubei:7b28c583",
+      "CN:Province:Hunan:ec18d9ea",
+      "CN:Province:Zhejiang:d1a43067"
+    ]
+  },
+  {
+    "key": "CN:Province:Jilin:d457453a",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "CN:Province:Heilongjiang:82d7965d",
+      "CN:Province:Liaoning:8f1ed029",
+      "KP:Province:Chagang:5427e1f3",
+      "KP:Province:North Hamgyong:7131396f",
+      "KP:Province:Ryanggang:acad816b",
+      "KP:Special City:Rason:04da658b"
+    ]
+  },
+  {
+    "key": "CN:Province:Liaoning:8f1ed029",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "CN:Province:Hebei:eabbe26d",
+      "CN:Province:Jilin:d457453a",
+      "KP:Province:Chagang:5427e1f3",
+      "KP:Province:North Pyongan:e0be1ea3"
+    ]
+  },
+  {
+    "key": "CN:Province:Qinghai:f5371d3d",
+    "neighbors": [
+      "CN:Autonomous Region:Tibet:d2d6fe59",
+      "CN:Autonomous Region:Xinjiang:84115ba4",
+      "CN:Province:Gansu:6dcebf99",
+      "CN:Province:Sichuan:23fdd5ef"
+    ]
+  },
+  {
+    "key": "CN:Province:Shaanxi:9fb18fd6",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "CN:Autonomous Region:Ningxia:0099b1e9",
+      "CN:Municipality:Chongqing:a5f4cc64",
+      "CN:Province:Gansu:6dcebf99",
+      "CN:Province:Henan:59789a09",
+      "CN:Province:Hubei:7b28c583",
+      "CN:Province:Shanxi:6c4a3297",
+      "CN:Province:Sichuan:23fdd5ef"
+    ]
+  },
+  {
+    "key": "CN:Province:Shandong:491d7751",
+    "neighbors": [
+      "CN:Province:Anhui:6738f8d1",
+      "CN:Province:Hebei:eabbe26d",
+      "CN:Province:Henan:59789a09",
+      "CN:Province:Jiangsu:c6cd8143"
+    ]
+  },
+  {
+    "key": "CN:Province:Shanxi:6c4a3297",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "CN:Province:Hebei:eabbe26d",
+      "CN:Province:Henan:59789a09",
+      "CN:Province:Shaanxi:9fb18fd6"
+    ]
+  },
+  {
+    "key": "CN:Province:Sichuan:23fdd5ef",
+    "neighbors": [
+      "CN:Autonomous Region:Tibet:d2d6fe59",
+      "CN:Municipality:Chongqing:a5f4cc64",
+      "CN:Province:Gansu:6dcebf99",
+      "CN:Province:Guizhou:e586219f",
+      "CN:Province:Qinghai:f5371d3d",
+      "CN:Province:Shaanxi:9fb18fd6",
+      "CN:Province:Yunnan:9a8f4122"
+    ]
+  },
+  {
+    "key": "CN:Province:Yunnan:9a8f4122",
+    "neighbors": [
+      "CN:Autonomous Region:Guangxi:da309f8b",
+      "CN:Autonomous Region:Tibet:d2d6fe59",
+      "CN:Province:Guizhou:e586219f",
+      "CN:Province:Sichuan:23fdd5ef"
+    ]
+  },
+  {
+    "key": "CN:Province:Zhejiang:d1a43067",
+    "neighbors": [
+      "CN:Municipality:Shanghai:8eb25fa9",
+      "CN:Province:Anhui:6738f8d1",
+      "CN:Province:Fujian:1adaa5fc",
+      "CN:Province:Jiangsu:c6cd8143",
+      "CN:Province:Jiangxi:cbdf7f8c"
+    ]
+  },
+  {
+    "key": "CN:Special Administrative Region:Hong Kong:f1d8fb9e",
+    "neighbors": [
+      "CN:Province:Guangdong:a15c1e9d"
+    ]
+  },
+  {
+    "key": "CN:Special Administrative Region:Macau:9da73f33",
+    "neighbors": [
+      "CN:Province:Guangdong:a15c1e9d"
+    ]
+  },
+  {
+    "key": "JP:Circuit:Hokkaido:a20322cf",
+    "neighbors": []
+  },
+  {
+    "key": "JP:Metropolis:Tokyo:ed52c2bf",
+    "neighbors": [
+      "JP:Prefecture:Chiba:ff1a78fb",
+      "JP:Prefecture:Kanagawa:ba2342d2",
+      "JP:Prefecture:Saitama:1d6fe9b7",
+      "JP:Prefecture:Yamanashi:95470973"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Aichi:c65c4ec7",
+    "neighbors": [
+      "JP:Prefecture:Gifu:c68d042a",
+      "JP:Prefecture:Mie:807581ce",
+      "JP:Prefecture:Nagano:f16ce1e1",
+      "JP:Prefecture:Shizuoka:6b6ef69a"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Akita:376c81bd",
+    "neighbors": [
+      "JP:Prefecture:Aomori:c243bcdc",
+      "JP:Prefecture:Iwate:3503cf24",
+      "JP:Prefecture:Miyagi:21d2d160",
+      "JP:Prefecture:Yamagata:52c33275"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Aomori:c243bcdc",
+    "neighbors": [
+      "JP:Prefecture:Akita:376c81bd",
+      "JP:Prefecture:Iwate:3503cf24"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Chiba:ff1a78fb",
+    "neighbors": [
+      "JP:Metropolis:Tokyo:ed52c2bf",
+      "JP:Prefecture:Ibaraki:9d888594",
+      "JP:Prefecture:Saitama:1d6fe9b7"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Ehime:86aa42cf",
+    "neighbors": [
+      "JP:Prefecture:Hiroshima:5b03c670",
+      "JP:Prefecture:Kagawa:a0c12885",
+      "JP:Prefecture:Kochi:88effae6",
+      "JP:Prefecture:Tokushima:949c746e"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Fukui:813a8dc0",
+    "neighbors": [
+      "JP:Prefecture:Gifu:c68d042a",
+      "JP:Prefecture:Ishikawa:353f8b92",
+      "JP:Prefecture:Shiga:91b0548e",
+      "JP:Urban Prefecture:Kyoto:e9257984"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Fukuoka:a709314b",
+    "neighbors": [
+      "JP:Prefecture:Kumamoto:70a4a098",
+      "JP:Prefecture:Oita:5aa28eba",
+      "JP:Prefecture:Saga:e7b54e98",
+      "JP:Prefecture:Yamaguchi:d22eaa85"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Fukushima:c527223a",
+    "neighbors": [
+      "JP:Prefecture:Gunma:43309744",
+      "JP:Prefecture:Ibaraki:9d888594",
+      "JP:Prefecture:Miyagi:21d2d160",
+      "JP:Prefecture:Niigata:d7cd3b41",
+      "JP:Prefecture:Tochigi:b7ad4407",
+      "JP:Prefecture:Yamagata:52c33275"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Gifu:c68d042a",
+    "neighbors": [
+      "JP:Prefecture:Aichi:c65c4ec7",
+      "JP:Prefecture:Fukui:813a8dc0",
+      "JP:Prefecture:Ishikawa:353f8b92",
+      "JP:Prefecture:Mie:807581ce",
+      "JP:Prefecture:Nagano:f16ce1e1",
+      "JP:Prefecture:Shiga:91b0548e",
+      "JP:Prefecture:Toyama:87dae924"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Gunma:43309744",
+    "neighbors": [
+      "JP:Prefecture:Fukushima:c527223a",
+      "JP:Prefecture:Nagano:f16ce1e1",
+      "JP:Prefecture:Niigata:d7cd3b41",
+      "JP:Prefecture:Saitama:1d6fe9b7",
+      "JP:Prefecture:Tochigi:b7ad4407"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Hiroshima:5b03c670",
+    "neighbors": [
+      "JP:Prefecture:Ehime:86aa42cf",
+      "JP:Prefecture:Okayama:97dcbc35",
+      "JP:Prefecture:Shimane:929f0da7",
+      "JP:Prefecture:Tottori:95eaa957",
+      "JP:Prefecture:Yamaguchi:d22eaa85"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Hyogo:850f9275",
+    "neighbors": [
+      "JP:Prefecture:Okayama:97dcbc35",
+      "JP:Prefecture:Tokushima:949c746e",
+      "JP:Prefecture:Tottori:95eaa957",
+      "JP:Urban Prefecture:Kyoto:e9257984",
+      "JP:Urban Prefecture:Osaka:e6993b63"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Ibaraki:9d888594",
+    "neighbors": [
+      "JP:Prefecture:Chiba:ff1a78fb",
+      "JP:Prefecture:Fukushima:c527223a",
+      "JP:Prefecture:Saitama:1d6fe9b7",
+      "JP:Prefecture:Tochigi:b7ad4407"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Ishikawa:353f8b92",
+    "neighbors": [
+      "JP:Prefecture:Fukui:813a8dc0",
+      "JP:Prefecture:Gifu:c68d042a",
+      "JP:Prefecture:Toyama:87dae924"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Iwate:3503cf24",
+    "neighbors": [
+      "JP:Prefecture:Akita:376c81bd",
+      "JP:Prefecture:Aomori:c243bcdc",
+      "JP:Prefecture:Miyagi:21d2d160"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Kagawa:a0c12885",
+    "neighbors": [
+      "JP:Prefecture:Ehime:86aa42cf",
+      "JP:Prefecture:Okayama:97dcbc35",
+      "JP:Prefecture:Tokushima:949c746e"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Kagoshima:cbda3e9b",
+    "neighbors": [
+      "JP:Prefecture:Kumamoto:70a4a098",
+      "JP:Prefecture:Miyazaki:fb180e84"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Kanagawa:ba2342d2",
+    "neighbors": [
+      "JP:Metropolis:Tokyo:ed52c2bf",
+      "JP:Prefecture:Shizuoka:6b6ef69a",
+      "JP:Prefecture:Yamanashi:95470973"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Kochi:88effae6",
+    "neighbors": [
+      "JP:Prefecture:Ehime:86aa42cf",
+      "JP:Prefecture:Tokushima:949c746e"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Kumamoto:70a4a098",
+    "neighbors": [
+      "JP:Prefecture:Fukuoka:a709314b",
+      "JP:Prefecture:Kagoshima:cbda3e9b",
+      "JP:Prefecture:Miyazaki:fb180e84",
+      "JP:Prefecture:Oita:5aa28eba"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Mie:807581ce",
+    "neighbors": [
+      "JP:Prefecture:Aichi:c65c4ec7",
+      "JP:Prefecture:Gifu:c68d042a",
+      "JP:Prefecture:Nara:9faacc0e",
+      "JP:Prefecture:Shiga:91b0548e",
+      "JP:Prefecture:Wakayama:503f8f4d",
+      "JP:Urban Prefecture:Kyoto:e9257984"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Miyagi:21d2d160",
+    "neighbors": [
+      "JP:Prefecture:Akita:376c81bd",
+      "JP:Prefecture:Fukushima:c527223a",
+      "JP:Prefecture:Iwate:3503cf24",
+      "JP:Prefecture:Yamagata:52c33275"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Miyazaki:fb180e84",
+    "neighbors": [
+      "JP:Prefecture:Kagoshima:cbda3e9b",
+      "JP:Prefecture:Kumamoto:70a4a098",
+      "JP:Prefecture:Oita:5aa28eba"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Nagano:f16ce1e1",
+    "neighbors": [
+      "JP:Prefecture:Aichi:c65c4ec7",
+      "JP:Prefecture:Gifu:c68d042a",
+      "JP:Prefecture:Gunma:43309744",
+      "JP:Prefecture:Niigata:d7cd3b41",
+      "JP:Prefecture:Saitama:1d6fe9b7",
+      "JP:Prefecture:Shizuoka:6b6ef69a",
+      "JP:Prefecture:Toyama:87dae924",
+      "JP:Prefecture:Yamanashi:95470973"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Nagasaki:dbc7bc2e",
+    "neighbors": [
+      "JP:Prefecture:Saga:e7b54e98"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Nara:9faacc0e",
+    "neighbors": [
+      "JP:Prefecture:Mie:807581ce",
+      "JP:Prefecture:Wakayama:503f8f4d",
+      "JP:Urban Prefecture:Kyoto:e9257984",
+      "JP:Urban Prefecture:Osaka:e6993b63"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Niigata:d7cd3b41",
+    "neighbors": [
+      "JP:Prefecture:Fukushima:c527223a",
+      "JP:Prefecture:Gunma:43309744",
+      "JP:Prefecture:Nagano:f16ce1e1",
+      "JP:Prefecture:Toyama:87dae924",
+      "JP:Prefecture:Yamagata:52c33275"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Oita:5aa28eba",
+    "neighbors": [
+      "JP:Prefecture:Fukuoka:a709314b",
+      "JP:Prefecture:Kumamoto:70a4a098",
+      "JP:Prefecture:Miyazaki:fb180e84"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Okayama:97dcbc35",
+    "neighbors": [
+      "JP:Prefecture:Hiroshima:5b03c670",
+      "JP:Prefecture:Hyogo:850f9275",
+      "JP:Prefecture:Kagawa:a0c12885",
+      "JP:Prefecture:Tottori:95eaa957"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Okinawa:8ea9d134",
+    "neighbors": []
+  },
+  {
+    "key": "JP:Prefecture:Saga:e7b54e98",
+    "neighbors": [
+      "JP:Prefecture:Fukuoka:a709314b",
+      "JP:Prefecture:Nagasaki:dbc7bc2e"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Saitama:1d6fe9b7",
+    "neighbors": [
+      "JP:Metropolis:Tokyo:ed52c2bf",
+      "JP:Prefecture:Chiba:ff1a78fb",
+      "JP:Prefecture:Gunma:43309744",
+      "JP:Prefecture:Ibaraki:9d888594",
+      "JP:Prefecture:Nagano:f16ce1e1",
+      "JP:Prefecture:Tochigi:b7ad4407",
+      "JP:Prefecture:Yamanashi:95470973"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Shiga:91b0548e",
+    "neighbors": [
+      "JP:Prefecture:Fukui:813a8dc0",
+      "JP:Prefecture:Gifu:c68d042a",
+      "JP:Prefecture:Mie:807581ce",
+      "JP:Urban Prefecture:Kyoto:e9257984"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Shimane:929f0da7",
+    "neighbors": [
+      "JP:Prefecture:Hiroshima:5b03c670",
+      "JP:Prefecture:Tottori:95eaa957",
+      "JP:Prefecture:Yamaguchi:d22eaa85"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Shizuoka:6b6ef69a",
+    "neighbors": [
+      "JP:Prefecture:Aichi:c65c4ec7",
+      "JP:Prefecture:Kanagawa:ba2342d2",
+      "JP:Prefecture:Nagano:f16ce1e1",
+      "JP:Prefecture:Yamanashi:95470973"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Tochigi:b7ad4407",
+    "neighbors": [
+      "JP:Prefecture:Fukushima:c527223a",
+      "JP:Prefecture:Gunma:43309744",
+      "JP:Prefecture:Ibaraki:9d888594",
+      "JP:Prefecture:Saitama:1d6fe9b7"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Tokushima:949c746e",
+    "neighbors": [
+      "JP:Prefecture:Ehime:86aa42cf",
+      "JP:Prefecture:Hyogo:850f9275",
+      "JP:Prefecture:Kagawa:a0c12885",
+      "JP:Prefecture:Kochi:88effae6"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Tottori:95eaa957",
+    "neighbors": [
+      "JP:Prefecture:Hiroshima:5b03c670",
+      "JP:Prefecture:Hyogo:850f9275",
+      "JP:Prefecture:Okayama:97dcbc35",
+      "JP:Prefecture:Shimane:929f0da7"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Toyama:87dae924",
+    "neighbors": [
+      "JP:Prefecture:Gifu:c68d042a",
+      "JP:Prefecture:Ishikawa:353f8b92",
+      "JP:Prefecture:Nagano:f16ce1e1",
+      "JP:Prefecture:Niigata:d7cd3b41"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Wakayama:503f8f4d",
+    "neighbors": [
+      "JP:Prefecture:Mie:807581ce",
+      "JP:Prefecture:Nara:9faacc0e",
+      "JP:Urban Prefecture:Osaka:e6993b63"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Yamagata:52c33275",
+    "neighbors": [
+      "JP:Prefecture:Akita:376c81bd",
+      "JP:Prefecture:Fukushima:c527223a",
+      "JP:Prefecture:Miyagi:21d2d160",
+      "JP:Prefecture:Niigata:d7cd3b41"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Yamaguchi:d22eaa85",
+    "neighbors": [
+      "JP:Prefecture:Fukuoka:a709314b",
+      "JP:Prefecture:Hiroshima:5b03c670",
+      "JP:Prefecture:Shimane:929f0da7"
+    ]
+  },
+  {
+    "key": "JP:Prefecture:Yamanashi:95470973",
+    "neighbors": [
+      "JP:Metropolis:Tokyo:ed52c2bf",
+      "JP:Prefecture:Kanagawa:ba2342d2",
+      "JP:Prefecture:Nagano:f16ce1e1",
+      "JP:Prefecture:Saitama:1d6fe9b7",
+      "JP:Prefecture:Shizuoka:6b6ef69a"
+    ]
+  },
+  {
+    "key": "JP:Urban Prefecture:Kyoto:e9257984",
+    "neighbors": [
+      "JP:Prefecture:Fukui:813a8dc0",
+      "JP:Prefecture:Hyogo:850f9275",
+      "JP:Prefecture:Mie:807581ce",
+      "JP:Prefecture:Nara:9faacc0e",
+      "JP:Prefecture:Shiga:91b0548e",
+      "JP:Urban Prefecture:Osaka:e6993b63"
+    ]
+  },
+  {
+    "key": "JP:Urban Prefecture:Osaka:e6993b63",
+    "neighbors": [
+      "JP:Prefecture:Hyogo:850f9275",
+      "JP:Prefecture:Nara:9faacc0e",
+      "JP:Prefecture:Wakayama:503f8f4d",
+      "JP:Urban Prefecture:Kyoto:e9257984"
+    ]
+  },
+  {
+    "key": "KP:Directly Governed City:Pyongyang:9a710217",
+    "neighbors": [
+      "KP:Province:North Hwanghae:9758a0ab",
+      "KP:Province:South Pyongan:6bccc0af"
+    ]
+  },
+  {
+    "key": "KP:Province:Chagang:5427e1f3",
+    "neighbors": [
+      "CN:Province:Jilin:d457453a",
+      "CN:Province:Liaoning:8f1ed029",
+      "KP:Province:North Pyongan:e0be1ea3",
+      "KP:Province:Ryanggang:acad816b",
+      "KP:Province:South Hamgyong:3b6cdf42",
+      "KP:Province:South Pyongan:6bccc0af"
+    ]
+  },
+  {
+    "key": "KP:Province:Kangwon:f6b49c3e",
+    "neighbors": [
+      "KP:Province:North Hwanghae:9758a0ab",
+      "KP:Province:South Hamgyong:3b6cdf42",
+      "KP:Province:South Pyongan:6bccc0af",
+      "KR:Province:Gyeonggi-do:884296e1",
+      "KR:Special Self-Governing Province:Gangwon-do:2d2deab8"
+    ]
+  },
+  {
+    "key": "KP:Province:North Hamgyong:7131396f",
+    "neighbors": [
+      "CN:Province:Jilin:d457453a",
+      "KP:Province:Ryanggang:acad816b",
+      "KP:Province:South Hamgyong:3b6cdf42",
+      "KP:Special City:Rason:04da658b"
+    ]
+  },
+  {
+    "key": "KP:Province:North Hwanghae:9758a0ab",
+    "neighbors": [
+      "KP:Directly Governed City:Pyongyang:9a710217",
+      "KP:Province:Kangwon:f6b49c3e",
+      "KP:Province:South Hwanghae:105b42f2",
+      "KP:Province:South Pyongan:6bccc0af",
+      "KP:Special City:Kaesong:445e30f8",
+      "KP:Special City:Nampo:c6814498",
+      "KR:Metropolitan City:Incheon:ac671720",
+      "KR:Province:Gyeonggi-do:884296e1"
+    ]
+  },
+  {
+    "key": "KP:Province:North Pyongan:e0be1ea3",
+    "neighbors": [
+      "CN:Province:Liaoning:8f1ed029",
+      "KP:Province:Chagang:5427e1f3",
+      "KP:Province:South Pyongan:6bccc0af"
+    ]
+  },
+  {
+    "key": "KP:Province:Ryanggang:acad816b",
+    "neighbors": [
+      "CN:Province:Jilin:d457453a",
+      "KP:Province:Chagang:5427e1f3",
+      "KP:Province:North Hamgyong:7131396f",
+      "KP:Province:South Hamgyong:3b6cdf42"
+    ]
+  },
+  {
+    "key": "KP:Province:South Hamgyong:3b6cdf42",
+    "neighbors": [
+      "KP:Province:Chagang:5427e1f3",
+      "KP:Province:Kangwon:f6b49c3e",
+      "KP:Province:North Hamgyong:7131396f",
+      "KP:Province:Ryanggang:acad816b",
+      "KP:Province:South Pyongan:6bccc0af"
+    ]
+  },
+  {
+    "key": "KP:Province:South Hwanghae:105b42f2",
+    "neighbors": [
+      "KP:Province:North Hwanghae:9758a0ab",
+      "KP:Province:South Pyongan:6bccc0af",
+      "KP:Special City:Nampo:c6814498",
+      "KR:Metropolitan City:Incheon:ac671720"
+    ]
+  },
+  {
+    "key": "KP:Province:South Pyongan:6bccc0af",
+    "neighbors": [
+      "KP:Directly Governed City:Pyongyang:9a710217",
+      "KP:Province:Chagang:5427e1f3",
+      "KP:Province:Kangwon:f6b49c3e",
+      "KP:Province:North Hwanghae:9758a0ab",
+      "KP:Province:North Pyongan:e0be1ea3",
+      "KP:Province:South Hamgyong:3b6cdf42",
+      "KP:Province:South Hwanghae:105b42f2",
+      "KP:Special City:Nampo:c6814498"
+    ]
+  },
+  {
+    "key": "KP:Special City:Kaesong:445e30f8",
+    "neighbors": [
+      "KP:Province:North Hwanghae:9758a0ab"
+    ]
+  },
+  {
+    "key": "KP:Special City:Nampo:c6814498",
+    "neighbors": [
+      "KP:Province:North Hwanghae:9758a0ab",
+      "KP:Province:South Hwanghae:105b42f2",
+      "KP:Province:South Pyongan:6bccc0af"
+    ]
+  },
+  {
+    "key": "KP:Special City:Rason:04da658b",
+    "neighbors": [
+      "CN:Province:Jilin:d457453a",
+      "KP:Province:North Hamgyong:7131396f"
+    ]
+  },
+  {
+    "key": "KR:Metropolitan City:Busan:13f8f94e",
+    "neighbors": [
+      "KR:Metropolitan City:Ulsan:a81a82a1",
+      "KR:Province:Gyeongsangnam-do:a1208ee8"
+    ]
+  },
+  {
+    "key": "KR:Metropolitan City:Daegu:eb690973",
+    "neighbors": [
+      "KR:Province:Gyeongsangbuk-do:c544cde4",
+      "KR:Province:Gyeongsangnam-do:a1208ee8"
+    ]
+  },
+  {
+    "key": "KR:Metropolitan City:Daejeon:26528ea2",
+    "neighbors": [
+      "KR:Province:Chungcheongbuk-do:a7508052",
+      "KR:Province:Chungcheongnam-do:655ada93",
+      "KR:Special Self-Governing City:Sejong:d3a55bce"
+    ]
+  },
+  {
+    "key": "KR:Metropolitan City:Gwangju:5ca68d4b",
+    "neighbors": [
+      "KR:Province:Jeollanam-do:27ee690e"
+    ]
+  },
+  {
+    "key": "KR:Metropolitan City:Incheon:ac671720",
+    "neighbors": [
+      "KP:Province:North Hwanghae:9758a0ab",
+      "KP:Province:South Hwanghae:105b42f2",
+      "KR:Province:Gyeonggi-do:884296e1",
+      "KR:Special City:Seoul:5e1d59df"
+    ]
+  },
+  {
+    "key": "KR:Metropolitan City:Ulsan:a81a82a1",
+    "neighbors": [
+      "KR:Metropolitan City:Busan:13f8f94e",
+      "KR:Province:Gyeongsangbuk-do:c544cde4",
+      "KR:Province:Gyeongsangnam-do:a1208ee8"
+    ]
+  },
+  {
+    "key": "KR:Province:Chungcheongbuk-do:a7508052",
+    "neighbors": [
+      "KR:Metropolitan City:Daejeon:26528ea2",
+      "KR:Province:Chungcheongnam-do:655ada93",
+      "KR:Province:Gyeonggi-do:884296e1",
+      "KR:Province:Gyeongsangbuk-do:c544cde4",
+      "KR:Special Self-Governing City:Sejong:d3a55bce",
+      "KR:Special Self-Governing Province:Gangwon-do:2d2deab8",
+      "KR:Special Self-Governing Province:Jeonbuk-do:9a0c7a9a"
+    ]
+  },
+  {
+    "key": "KR:Province:Chungcheongnam-do:655ada93",
+    "neighbors": [
+      "KR:Metropolitan City:Daejeon:26528ea2",
+      "KR:Province:Chungcheongbuk-do:a7508052",
+      "KR:Province:Gyeonggi-do:884296e1",
+      "KR:Special Self-Governing City:Sejong:d3a55bce",
+      "KR:Special Self-Governing Province:Jeonbuk-do:9a0c7a9a"
+    ]
+  },
+  {
+    "key": "KR:Province:Gyeonggi-do:884296e1",
+    "neighbors": [
+      "KP:Province:Kangwon:f6b49c3e",
+      "KP:Province:North Hwanghae:9758a0ab",
+      "KR:Metropolitan City:Incheon:ac671720",
+      "KR:Province:Chungcheongbuk-do:a7508052",
+      "KR:Province:Chungcheongnam-do:655ada93",
+      "KR:Special City:Seoul:5e1d59df",
+      "KR:Special Self-Governing Province:Gangwon-do:2d2deab8"
+    ]
+  },
+  {
+    "key": "KR:Province:Gyeongsangbuk-do:c544cde4",
+    "neighbors": [
+      "KR:Metropolitan City:Daegu:eb690973",
+      "KR:Metropolitan City:Ulsan:a81a82a1",
+      "KR:Province:Chungcheongbuk-do:a7508052",
+      "KR:Province:Gyeongsangnam-do:a1208ee8",
+      "KR:Special Self-Governing Province:Gangwon-do:2d2deab8",
+      "KR:Special Self-Governing Province:Jeonbuk-do:9a0c7a9a"
+    ]
+  },
+  {
+    "key": "KR:Province:Gyeongsangnam-do:a1208ee8",
+    "neighbors": [
+      "KR:Metropolitan City:Busan:13f8f94e",
+      "KR:Metropolitan City:Daegu:eb690973",
+      "KR:Metropolitan City:Ulsan:a81a82a1",
+      "KR:Province:Gyeongsangbuk-do:c544cde4",
+      "KR:Province:Jeollanam-do:27ee690e",
+      "KR:Special Self-Governing Province:Jeonbuk-do:9a0c7a9a"
+    ]
+  },
+  {
+    "key": "KR:Province:Jeollanam-do:27ee690e",
+    "neighbors": [
+      "KR:Metropolitan City:Gwangju:5ca68d4b",
+      "KR:Province:Gyeongsangnam-do:a1208ee8",
+      "KR:Special Self-Governing Province:Jeonbuk-do:9a0c7a9a"
+    ]
+  },
+  {
+    "key": "KR:Special City:Seoul:5e1d59df",
+    "neighbors": [
+      "KR:Metropolitan City:Incheon:ac671720",
+      "KR:Province:Gyeonggi-do:884296e1"
+    ]
+  },
+  {
+    "key": "KR:Special Self-Governing City:Sejong:d3a55bce",
+    "neighbors": [
+      "KR:Metropolitan City:Daejeon:26528ea2",
+      "KR:Province:Chungcheongbuk-do:a7508052",
+      "KR:Province:Chungcheongnam-do:655ada93"
+    ]
+  },
+  {
+    "key": "KR:Special Self-Governing Province:Gangwon-do:2d2deab8",
+    "neighbors": [
+      "KP:Province:Kangwon:f6b49c3e",
+      "KR:Province:Chungcheongbuk-do:a7508052",
+      "KR:Province:Gyeonggi-do:884296e1",
+      "KR:Province:Gyeongsangbuk-do:c544cde4"
+    ]
+  },
+  {
+    "key": "KR:Special Self-Governing Province:Jeju-do:c0a73876",
+    "neighbors": []
+  },
+  {
+    "key": "KR:Special Self-Governing Province:Jeonbuk-do:9a0c7a9a",
+    "neighbors": [
+      "KR:Province:Chungcheongbuk-do:a7508052",
+      "KR:Province:Chungcheongnam-do:655ada93",
+      "KR:Province:Gyeongsangbuk-do:c544cde4",
+      "KR:Province:Gyeongsangnam-do:a1208ee8",
+      "KR:Province:Jeollanam-do:27ee690e"
+    ]
+  },
+  {
+    "key": "MN:Municipality:Ulaanbaatar:93cd1342",
+    "neighbors": [
+      "MN:Province:Khentii:12c7920a",
+      "MN:Province:Töv:d2960029"
+    ]
+  },
+  {
+    "key": "MN:Province:Arkhangai:3f07a1d3",
+    "neighbors": [
+      "MN:Province:Bayankhongor:f6a655dc",
+      "MN:Province:Bulgan:0c76572a",
+      "MN:Province:Khövsgöl:a9048daa",
+      "MN:Province:Zavkhan:79856291",
+      "MN:Province:Övörkhangai:dc63659a"
+    ]
+  },
+  {
+    "key": "MN:Province:Bayan-Ölgii:21e862c5",
+    "neighbors": [
+      "CN:Autonomous Region:Xinjiang:84115ba4",
+      "MN:Province:Khovd:0e7df186",
+      "MN:Province:Uvs:a622eacb"
+    ]
+  },
+  {
+    "key": "MN:Province:Bayankhongor:f6a655dc",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "MN:Province:Arkhangai:3f07a1d3",
+      "MN:Province:Govi-Altai:49693729",
+      "MN:Province:Zavkhan:79856291",
+      "MN:Province:Ömnögovi:06cfa9aa",
+      "MN:Province:Övörkhangai:dc63659a"
+    ]
+  },
+  {
+    "key": "MN:Province:Bulgan:0c76572a",
+    "neighbors": [
+      "MN:Province:Arkhangai:3f07a1d3",
+      "MN:Province:Khövsgöl:a9048daa",
+      "MN:Province:Orkhon:ce547659",
+      "MN:Province:Selenge:9fc5115b",
+      "MN:Province:Töv:d2960029",
+      "MN:Province:Övörkhangai:dc63659a"
+    ]
+  },
+  {
+    "key": "MN:Province:Darkhan-Uul:df3f92ac",
+    "neighbors": [
+      "MN:Province:Selenge:9fc5115b"
+    ]
+  },
+  {
+    "key": "MN:Province:Dornod:5668378c",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "MN:Province:Khentii:12c7920a",
+      "MN:Province:Sükhbaatar:2980f452"
+    ]
+  },
+  {
+    "key": "MN:Province:Dornogovi:e976d05c",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "MN:Province:Dundgovi:37e8364c",
+      "MN:Province:Govisümber:7c83eefd",
+      "MN:Province:Khentii:12c7920a",
+      "MN:Province:Sükhbaatar:2980f452",
+      "MN:Province:Ömnögovi:06cfa9aa"
+    ]
+  },
+  {
+    "key": "MN:Province:Dundgovi:37e8364c",
+    "neighbors": [
+      "MN:Province:Dornogovi:e976d05c",
+      "MN:Province:Govisümber:7c83eefd",
+      "MN:Province:Töv:d2960029",
+      "MN:Province:Ömnögovi:06cfa9aa",
+      "MN:Province:Övörkhangai:dc63659a"
+    ]
+  },
+  {
+    "key": "MN:Province:Govi-Altai:49693729",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "CN:Autonomous Region:Xinjiang:84115ba4",
+      "CN:Province:Gansu:6dcebf99",
+      "MN:Province:Bayankhongor:f6a655dc",
+      "MN:Province:Khovd:0e7df186",
+      "MN:Province:Zavkhan:79856291"
+    ]
+  },
+  {
+    "key": "MN:Province:Govisümber:7c83eefd",
+    "neighbors": [
+      "MN:Province:Dornogovi:e976d05c",
+      "MN:Province:Dundgovi:37e8364c",
+      "MN:Province:Khentii:12c7920a",
+      "MN:Province:Töv:d2960029"
+    ]
+  },
+  {
+    "key": "MN:Province:Khentii:12c7920a",
+    "neighbors": [
+      "MN:Municipality:Ulaanbaatar:93cd1342",
+      "MN:Province:Dornod:5668378c",
+      "MN:Province:Dornogovi:e976d05c",
+      "MN:Province:Govisümber:7c83eefd",
+      "MN:Province:Selenge:9fc5115b",
+      "MN:Province:Sükhbaatar:2980f452",
+      "MN:Province:Töv:d2960029"
+    ]
+  },
+  {
+    "key": "MN:Province:Khovd:0e7df186",
+    "neighbors": [
+      "CN:Autonomous Region:Xinjiang:84115ba4",
+      "MN:Province:Bayan-Ölgii:21e862c5",
+      "MN:Province:Govi-Altai:49693729",
+      "MN:Province:Uvs:a622eacb",
+      "MN:Province:Zavkhan:79856291"
+    ]
+  },
+  {
+    "key": "MN:Province:Khövsgöl:a9048daa",
+    "neighbors": [
+      "MN:Province:Arkhangai:3f07a1d3",
+      "MN:Province:Bulgan:0c76572a",
+      "MN:Province:Zavkhan:79856291"
+    ]
+  },
+  {
+    "key": "MN:Province:Orkhon:ce547659",
+    "neighbors": [
+      "MN:Province:Bulgan:0c76572a",
+      "MN:Province:Selenge:9fc5115b"
+    ]
+  },
+  {
+    "key": "MN:Province:Selenge:9fc5115b",
+    "neighbors": [
+      "MN:Province:Bulgan:0c76572a",
+      "MN:Province:Darkhan-Uul:df3f92ac",
+      "MN:Province:Khentii:12c7920a",
+      "MN:Province:Orkhon:ce547659",
+      "MN:Province:Töv:d2960029"
+    ]
+  },
+  {
+    "key": "MN:Province:Sükhbaatar:2980f452",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "MN:Province:Dornod:5668378c",
+      "MN:Province:Dornogovi:e976d05c",
+      "MN:Province:Khentii:12c7920a"
+    ]
+  },
+  {
+    "key": "MN:Province:Töv:d2960029",
+    "neighbors": [
+      "MN:Municipality:Ulaanbaatar:93cd1342",
+      "MN:Province:Bulgan:0c76572a",
+      "MN:Province:Dundgovi:37e8364c",
+      "MN:Province:Govisümber:7c83eefd",
+      "MN:Province:Khentii:12c7920a",
+      "MN:Province:Selenge:9fc5115b",
+      "MN:Province:Övörkhangai:dc63659a"
+    ]
+  },
+  {
+    "key": "MN:Province:Uvs:a622eacb",
+    "neighbors": [
+      "MN:Province:Bayan-Ölgii:21e862c5",
+      "MN:Province:Khovd:0e7df186",
+      "MN:Province:Zavkhan:79856291"
+    ]
+  },
+  {
+    "key": "MN:Province:Zavkhan:79856291",
+    "neighbors": [
+      "MN:Province:Arkhangai:3f07a1d3",
+      "MN:Province:Bayankhongor:f6a655dc",
+      "MN:Province:Govi-Altai:49693729",
+      "MN:Province:Khovd:0e7df186",
+      "MN:Province:Khövsgöl:a9048daa",
+      "MN:Province:Uvs:a622eacb"
+    ]
+  },
+  {
+    "key": "MN:Province:Ömnögovi:06cfa9aa",
+    "neighbors": [
+      "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+      "MN:Province:Bayankhongor:f6a655dc",
+      "MN:Province:Dornogovi:e976d05c",
+      "MN:Province:Dundgovi:37e8364c",
+      "MN:Province:Övörkhangai:dc63659a"
+    ]
+  },
+  {
+    "key": "MN:Province:Övörkhangai:dc63659a",
+    "neighbors": [
+      "MN:Province:Arkhangai:3f07a1d3",
+      "MN:Province:Bayankhongor:f6a655dc",
+      "MN:Province:Bulgan:0c76572a",
+      "MN:Province:Dundgovi:37e8364c",
+      "MN:Province:Töv:d2960029",
+      "MN:Province:Ömnögovi:06cfa9aa"
+    ]
+  },
+  {
+    "key": "TW:City:Chiayi:816c0db7",
+    "neighbors": [
+      "TW:County:Chiayi:ab3753ff"
+    ]
+  },
+  {
+    "key": "TW:City:Hsinchu:c2d2788c",
+    "neighbors": [
+      "TW:County:Hsinchu:a4037f7d",
+      "TW:County:Miaoli:a5e8a17e"
+    ]
+  },
+  {
+    "key": "TW:City:Keelung:0b02213c",
+    "neighbors": [
+      "TW:Special Municipality:New Taipei:99253018",
+      "TW:Special Municipality:Taipei:c751fa14"
+    ]
+  },
+  {
+    "key": "TW:County:Changhua:bff96953",
+    "neighbors": [
+      "TW:County:Nantou:48dedc9c",
+      "TW:County:Yunlin:6862ce8f",
+      "TW:Special Municipality:Taichung:87a111ba"
+    ]
+  },
+  {
+    "key": "TW:County:Chiayi:ab3753ff",
+    "neighbors": [
+      "TW:City:Chiayi:816c0db7",
+      "TW:County:Nantou:48dedc9c",
+      "TW:County:Yunlin:6862ce8f",
+      "TW:Special Municipality:Kaohsiung:5e6d83f9",
+      "TW:Special Municipality:Tainan:e1d28468"
+    ]
+  },
+  {
+    "key": "TW:County:Hsinchu:a4037f7d",
+    "neighbors": [
+      "TW:City:Hsinchu:c2d2788c",
+      "TW:County:Miaoli:a5e8a17e",
+      "TW:County:Yilan:36389a0c",
+      "TW:Special Municipality:Taichung:87a111ba",
+      "TW:Special Municipality:Taoyuan:a77136d6"
+    ]
+  },
+  {
+    "key": "TW:County:Hualien:7a041f51",
+    "neighbors": [
+      "TW:County:Nantou:48dedc9c",
+      "TW:County:Taitung:1ed06d53",
+      "TW:County:Yilan:36389a0c",
+      "TW:Special Municipality:Kaohsiung:5e6d83f9",
+      "TW:Special Municipality:Taichung:87a111ba"
+    ]
+  },
+  {
+    "key": "TW:County:Kinmen:d0eab912",
+    "neighbors": [
+      "CN:Province:Fujian:1adaa5fc"
+    ]
+  },
+  {
+    "key": "TW:County:Lienchiang:9cafeaf2",
+    "neighbors": []
+  },
+  {
+    "key": "TW:County:Miaoli:a5e8a17e",
+    "neighbors": [
+      "TW:City:Hsinchu:c2d2788c",
+      "TW:County:Hsinchu:a4037f7d",
+      "TW:Special Municipality:Taichung:87a111ba"
+    ]
+  },
+  {
+    "key": "TW:County:Nantou:48dedc9c",
+    "neighbors": [
+      "TW:County:Changhua:bff96953",
+      "TW:County:Chiayi:ab3753ff",
+      "TW:County:Hualien:7a041f51",
+      "TW:County:Yunlin:6862ce8f",
+      "TW:Special Municipality:Kaohsiung:5e6d83f9",
+      "TW:Special Municipality:Taichung:87a111ba"
+    ]
+  },
+  {
+    "key": "TW:County:Penghu:961bb4d5",
+    "neighbors": []
+  },
+  {
+    "key": "TW:County:Pingtung:ef8615fd",
+    "neighbors": [
+      "TW:County:Taitung:1ed06d53",
+      "TW:Special Municipality:Kaohsiung:5e6d83f9"
+    ]
+  },
+  {
+    "key": "TW:County:Taitung:1ed06d53",
+    "neighbors": [
+      "TW:County:Hualien:7a041f51",
+      "TW:County:Pingtung:ef8615fd",
+      "TW:Special Municipality:Kaohsiung:5e6d83f9"
+    ]
+  },
+  {
+    "key": "TW:County:Yilan:36389a0c",
+    "neighbors": [
+      "TW:County:Hsinchu:a4037f7d",
+      "TW:County:Hualien:7a041f51",
+      "TW:Special Municipality:New Taipei:99253018",
+      "TW:Special Municipality:Taichung:87a111ba",
+      "TW:Special Municipality:Taoyuan:a77136d6"
+    ]
+  },
+  {
+    "key": "TW:County:Yunlin:6862ce8f",
+    "neighbors": [
+      "TW:County:Changhua:bff96953",
+      "TW:County:Chiayi:ab3753ff",
+      "TW:County:Nantou:48dedc9c"
+    ]
+  },
+  {
+    "key": "TW:Special Municipality:Kaohsiung:5e6d83f9",
+    "neighbors": [
+      "TW:County:Chiayi:ab3753ff",
+      "TW:County:Hualien:7a041f51",
+      "TW:County:Nantou:48dedc9c",
+      "TW:County:Pingtung:ef8615fd",
+      "TW:County:Taitung:1ed06d53",
+      "TW:Special Municipality:Tainan:e1d28468"
+    ]
+  },
+  {
+    "key": "TW:Special Municipality:New Taipei:99253018",
+    "neighbors": [
+      "TW:City:Keelung:0b02213c",
+      "TW:County:Yilan:36389a0c",
+      "TW:Special Municipality:Taipei:c751fa14",
+      "TW:Special Municipality:Taoyuan:a77136d6"
+    ]
+  },
+  {
+    "key": "TW:Special Municipality:Taichung:87a111ba",
+    "neighbors": [
+      "TW:County:Changhua:bff96953",
+      "TW:County:Hsinchu:a4037f7d",
+      "TW:County:Hualien:7a041f51",
+      "TW:County:Miaoli:a5e8a17e",
+      "TW:County:Nantou:48dedc9c",
+      "TW:County:Yilan:36389a0c"
+    ]
+  },
+  {
+    "key": "TW:Special Municipality:Tainan:e1d28468",
+    "neighbors": [
+      "TW:County:Chiayi:ab3753ff",
+      "TW:Special Municipality:Kaohsiung:5e6d83f9"
+    ]
+  },
+  {
+    "key": "TW:Special Municipality:Taipei:c751fa14",
+    "neighbors": [
+      "TW:City:Keelung:0b02213c",
+      "TW:Special Municipality:New Taipei:99253018"
+    ]
+  },
+  {
+    "key": "TW:Special Municipality:Taoyuan:a77136d6",
+    "neighbors": [
+      "TW:County:Hsinchu:a4037f7d",
+      "TW:County:Yilan:36389a0c",
+      "TW:Special Municipality:New Taipei:99253018"
+    ]
+  }
+]

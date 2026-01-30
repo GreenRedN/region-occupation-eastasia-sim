@@ -1,0 +1,1388 @@
+[
+  {
+    "key": "CN:Province:Anhui:6738f8d1",
+    "resource": "WOOD",
+    "yieldPerTurn": 9,
+    "population": 40754166,
+    "mobility": 8,
+    "support": 61,
+    "stability": 84
+  },
+  {
+    "key": "CN:Municipality:Beijing:403eee54",
+    "resource": "GOLD",
+    "yieldPerTurn": 9,
+    "population": 23097216,
+    "mobility": 5,
+    "support": 74,
+    "stability": 66
+  },
+  {
+    "key": "CN:Municipality:Chongqing:a5f4cc64",
+    "resource": "GOLD",
+    "yieldPerTurn": 18,
+    "population": 40805262,
+    "mobility": 3,
+    "support": 79,
+    "stability": 75
+  },
+  {
+    "key": "CN:Province:Fujian:1adaa5fc",
+    "resource": "FOOD",
+    "yieldPerTurn": 12,
+    "population": 17739450,
+    "mobility": 4,
+    "support": 63,
+    "stability": 50
+  },
+  {
+    "key": "CN:Province:Gansu:6dcebf99",
+    "resource": "FOOD",
+    "yieldPerTurn": 12,
+    "population": 19526423,
+    "mobility": 6,
+    "support": 68,
+    "stability": 68
+  },
+  {
+    "key": "CN:Province:Guangdong:a15c1e9d",
+    "resource": "GOLD",
+    "yieldPerTurn": 9,
+    "population": 21795553,
+    "mobility": 6,
+    "support": 82,
+    "stability": 83
+  },
+  {
+    "key": "CN:Autonomous Region:Guangxi:da309f8b",
+    "resource": "FOOD",
+    "yieldPerTurn": 14,
+    "population": 35376766,
+    "mobility": 8,
+    "support": 75,
+    "stability": 50
+  },
+  {
+    "key": "CN:Province:Guizhou:e586219f",
+    "resource": "FOOD",
+    "yieldPerTurn": 17,
+    "population": 42355607,
+    "mobility": 7,
+    "support": 65,
+    "stability": 57
+  },
+  {
+    "key": "CN:Province:Hainan:cb1bc4ed",
+    "resource": "ENERGY",
+    "yieldPerTurn": 17,
+    "population": 34714827,
+    "mobility": 5,
+    "support": 72,
+    "stability": 65
+  },
+  {
+    "key": "CN:Province:Hebei:eabbe26d",
+    "resource": "GOLD",
+    "yieldPerTurn": 7,
+    "population": 30649615,
+    "mobility": 5,
+    "support": 56,
+    "stability": 84
+  },
+  {
+    "key": "CN:Province:Heilongjiang:82d7965d",
+    "resource": "METAL",
+    "yieldPerTurn": 14,
+    "population": 13226744,
+    "mobility": 3,
+    "support": 85,
+    "stability": 70
+  },
+  {
+    "key": "CN:Province:Henan:59789a09",
+    "resource": "FOOD",
+    "yieldPerTurn": 14,
+    "population": 34204840,
+    "mobility": 4,
+    "support": 66,
+    "stability": 57
+  },
+  {
+    "key": "CN:Special Administrative Region:Hong Kong:f1d8fb9e",
+    "resource": "FOOD",
+    "yieldPerTurn": 12,
+    "population": 41995790,
+    "mobility": 7,
+    "support": 85,
+    "stability": 57
+  },
+  {
+    "key": "CN:Province:Hubei:7b28c583",
+    "resource": "FOOD",
+    "yieldPerTurn": 17,
+    "population": 6640020,
+    "mobility": 8,
+    "support": 71,
+    "stability": 56
+  },
+  {
+    "key": "CN:Province:Hunan:ec18d9ea",
+    "resource": "METAL",
+    "yieldPerTurn": 11,
+    "population": 24252721,
+    "mobility": 5,
+    "support": 77,
+    "stability": 54
+  },
+  {
+    "key": "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+    "resource": "WOOD",
+    "yieldPerTurn": 6,
+    "population": 11900023,
+    "mobility": 5,
+    "support": 55,
+    "stability": 53
+  },
+  {
+    "key": "CN:Province:Jiangsu:c6cd8143",
+    "resource": "FOOD",
+    "yieldPerTurn": 13,
+    "population": 25149515,
+    "mobility": 7,
+    "support": 83,
+    "stability": 84
+  },
+  {
+    "key": "CN:Province:Jiangxi:cbdf7f8c",
+    "resource": "METAL",
+    "yieldPerTurn": 12,
+    "population": 12183771,
+    "mobility": 6,
+    "support": 66,
+    "stability": 75
+  },
+  {
+    "key": "CN:Province:Jilin:d457453a",
+    "resource": "WOOD",
+    "yieldPerTurn": 8,
+    "population": 40315045,
+    "mobility": 5,
+    "support": 58,
+    "stability": 82
+  },
+  {
+    "key": "CN:Province:Liaoning:8f1ed029",
+    "resource": "ENERGY",
+    "yieldPerTurn": 7,
+    "population": 4824276,
+    "mobility": 7,
+    "support": 85,
+    "stability": 64
+  },
+  {
+    "key": "CN:Special Administrative Region:Macau:9da73f33",
+    "resource": "GOLD",
+    "yieldPerTurn": 14,
+    "population": 11158712,
+    "mobility": 8,
+    "support": 79,
+    "stability": 66
+  },
+  {
+    "key": "CN:Autonomous Region:Ningxia:0099b1e9",
+    "resource": "WOOD",
+    "yieldPerTurn": 8,
+    "population": 7896210,
+    "mobility": 6,
+    "support": 77,
+    "stability": 54
+  },
+  {
+    "key": "CN:Province:Qinghai:f5371d3d",
+    "resource": "FOOD",
+    "yieldPerTurn": 16,
+    "population": 30721100,
+    "mobility": 5,
+    "support": 66,
+    "stability": 58
+  },
+  {
+    "key": "CN:Province:Shaanxi:9fb18fd6",
+    "resource": "FOOD",
+    "yieldPerTurn": 13,
+    "population": 6150534,
+    "mobility": 5,
+    "support": 81,
+    "stability": 50
+  },
+  {
+    "key": "CN:Province:Shandong:491d7751",
+    "resource": "ENERGY",
+    "yieldPerTurn": 13,
+    "population": 37421083,
+    "mobility": 9,
+    "support": 59,
+    "stability": 54
+  },
+  {
+    "key": "CN:Municipality:Shanghai:8eb25fa9",
+    "resource": "GOLD",
+    "yieldPerTurn": 9,
+    "population": 9634620,
+    "mobility": 7,
+    "support": 83,
+    "stability": 84
+  },
+  {
+    "key": "CN:Province:Shanxi:6c4a3297",
+    "resource": "WOOD",
+    "yieldPerTurn": 18,
+    "population": 19767576,
+    "mobility": 7,
+    "support": 64,
+    "stability": 71
+  },
+  {
+    "key": "CN:Province:Sichuan:23fdd5ef",
+    "resource": "FOOD",
+    "yieldPerTurn": 16,
+    "population": 23089635,
+    "mobility": 3,
+    "support": 79,
+    "stability": 81
+  },
+  {
+    "key": "CN:Municipality:Tianjin:fae70884",
+    "resource": "GOLD",
+    "yieldPerTurn": 18,
+    "population": 57292243,
+    "mobility": 4,
+    "support": 60,
+    "stability": 71
+  },
+  {
+    "key": "CN:Autonomous Region:Tibet:d2d6fe59",
+    "resource": "GOLD",
+    "yieldPerTurn": 10,
+    "population": 34898415,
+    "mobility": 4,
+    "support": 61,
+    "stability": 84
+  },
+  {
+    "key": "CN:Autonomous Region:Xinjiang:84115ba4",
+    "resource": "FOOD",
+    "yieldPerTurn": 10,
+    "population": 31024281,
+    "mobility": 8,
+    "support": 58,
+    "stability": 55
+  },
+  {
+    "key": "CN:Province:Yunnan:9a8f4122",
+    "resource": "METAL",
+    "yieldPerTurn": 6,
+    "population": 34803445,
+    "mobility": 4,
+    "support": 75,
+    "stability": 52
+  },
+  {
+    "key": "CN:Province:Zhejiang:d1a43067",
+    "resource": "METAL",
+    "yieldPerTurn": 13,
+    "population": 8719974,
+    "mobility": 5,
+    "support": 75,
+    "stability": 77
+  },
+  {
+    "key": "JP:Prefecture:Aichi:c65c4ec7",
+    "resource": "FOOD",
+    "yieldPerTurn": 15,
+    "population": 5843962,
+    "mobility": 3,
+    "support": 67,
+    "stability": 61
+  },
+  {
+    "key": "JP:Prefecture:Akita:376c81bd",
+    "resource": "ENERGY",
+    "yieldPerTurn": 9,
+    "population": 8059568,
+    "mobility": 5,
+    "support": 85,
+    "stability": 64
+  },
+  {
+    "key": "JP:Prefecture:Aomori:c243bcdc",
+    "resource": "FOOD",
+    "yieldPerTurn": 11,
+    "population": 5347927,
+    "mobility": 5,
+    "support": 83,
+    "stability": 57
+  },
+  {
+    "key": "JP:Prefecture:Chiba:ff1a78fb",
+    "resource": "GOLD",
+    "yieldPerTurn": 6,
+    "population": 9948671,
+    "mobility": 4,
+    "support": 72,
+    "stability": 64
+  },
+  {
+    "key": "JP:Prefecture:Ehime:86aa42cf",
+    "resource": "METAL",
+    "yieldPerTurn": 17,
+    "population": 1655213,
+    "mobility": 8,
+    "support": 67,
+    "stability": 71
+  },
+  {
+    "key": "JP:Prefecture:Fukui:813a8dc0",
+    "resource": "METAL",
+    "yieldPerTurn": 9,
+    "population": 3662691,
+    "mobility": 5,
+    "support": 82,
+    "stability": 80
+  },
+  {
+    "key": "JP:Prefecture:Fukuoka:a709314b",
+    "resource": "FOOD",
+    "yieldPerTurn": 11,
+    "population": 8514988,
+    "mobility": 5,
+    "support": 66,
+    "stability": 54
+  },
+  {
+    "key": "JP:Prefecture:Fukushima:c527223a",
+    "resource": "FOOD",
+    "yieldPerTurn": 16,
+    "population": 2866541,
+    "mobility": 6,
+    "support": 74,
+    "stability": 76
+  },
+  {
+    "key": "JP:Prefecture:Gifu:c68d042a",
+    "resource": "GOLD",
+    "yieldPerTurn": 14,
+    "population": 10152380,
+    "mobility": 9,
+    "support": 61,
+    "stability": 63
+  },
+  {
+    "key": "JP:Prefecture:Gunma:43309744",
+    "resource": "METAL",
+    "yieldPerTurn": 8,
+    "population": 11279049,
+    "mobility": 3,
+    "support": 80,
+    "stability": 63
+  },
+  {
+    "key": "JP:Prefecture:Hiroshima:5b03c670",
+    "resource": "FOOD",
+    "yieldPerTurn": 9,
+    "population": 9657047,
+    "mobility": 7,
+    "support": 65,
+    "stability": 81
+  },
+  {
+    "key": "JP:Circuit:Hokkaido:a20322cf",
+    "resource": "FOOD",
+    "yieldPerTurn": 9,
+    "population": 4107684,
+    "mobility": 9,
+    "support": 60,
+    "stability": 73
+  },
+  {
+    "key": "JP:Prefecture:Hyogo:850f9275",
+    "resource": "METAL",
+    "yieldPerTurn": 11,
+    "population": 5341560,
+    "mobility": 4,
+    "support": 69,
+    "stability": 76
+  },
+  {
+    "key": "JP:Prefecture:Ibaraki:9d888594",
+    "resource": "ENERGY",
+    "yieldPerTurn": 11,
+    "population": 1589764,
+    "mobility": 8,
+    "support": 78,
+    "stability": 68
+  },
+  {
+    "key": "JP:Prefecture:Ishikawa:353f8b92",
+    "resource": "GOLD",
+    "yieldPerTurn": 11,
+    "population": 12780295,
+    "mobility": 3,
+    "support": 68,
+    "stability": 61
+  },
+  {
+    "key": "JP:Prefecture:Iwate:3503cf24",
+    "resource": "WOOD",
+    "yieldPerTurn": 7,
+    "population": 3812180,
+    "mobility": 8,
+    "support": 84,
+    "stability": 66
+  },
+  {
+    "key": "JP:Prefecture:Kagawa:a0c12885",
+    "resource": "ENERGY",
+    "yieldPerTurn": 12,
+    "population": 2043393,
+    "mobility": 9,
+    "support": 59,
+    "stability": 54
+  },
+  {
+    "key": "JP:Prefecture:Kagoshima:cbda3e9b",
+    "resource": "FOOD",
+    "yieldPerTurn": 14,
+    "population": 4048990,
+    "mobility": 5,
+    "support": 78,
+    "stability": 68
+  },
+  {
+    "key": "JP:Prefecture:Kanagawa:ba2342d2",
+    "resource": "METAL",
+    "yieldPerTurn": 17,
+    "population": 11569181,
+    "mobility": 6,
+    "support": 79,
+    "stability": 82
+  },
+  {
+    "key": "JP:Prefecture:Kochi:88effae6",
+    "resource": "FOOD",
+    "yieldPerTurn": 9,
+    "population": 6322725,
+    "mobility": 8,
+    "support": 57,
+    "stability": 69
+  },
+  {
+    "key": "JP:Prefecture:Kumamoto:70a4a098",
+    "resource": "METAL",
+    "yieldPerTurn": 17,
+    "population": 12248657,
+    "mobility": 3,
+    "support": 63,
+    "stability": 54
+  },
+  {
+    "key": "JP:Urban Prefecture:Kyoto:e9257984",
+    "resource": "METAL",
+    "yieldPerTurn": 16,
+    "population": 9390211,
+    "mobility": 4,
+    "support": 85,
+    "stability": 56
+  },
+  {
+    "key": "JP:Prefecture:Mie:807581ce",
+    "resource": "GOLD",
+    "yieldPerTurn": 17,
+    "population": 8035463,
+    "mobility": 7,
+    "support": 62,
+    "stability": 78
+  },
+  {
+    "key": "JP:Prefecture:Miyagi:21d2d160",
+    "resource": "METAL",
+    "yieldPerTurn": 18,
+    "population": 3267243,
+    "mobility": 6,
+    "support": 59,
+    "stability": 70
+  },
+  {
+    "key": "JP:Prefecture:Miyazaki:fb180e84",
+    "resource": "ENERGY",
+    "yieldPerTurn": 15,
+    "population": 4174422,
+    "mobility": 7,
+    "support": 83,
+    "stability": 50
+  },
+  {
+    "key": "JP:Prefecture:Nagano:f16ce1e1",
+    "resource": "FOOD",
+    "yieldPerTurn": 10,
+    "population": 8059171,
+    "mobility": 8,
+    "support": 62,
+    "stability": 62
+  },
+  {
+    "key": "JP:Prefecture:Nagasaki:dbc7bc2e",
+    "resource": "WOOD",
+    "yieldPerTurn": 7,
+    "population": 10504371,
+    "mobility": 6,
+    "support": 74,
+    "stability": 58
+  },
+  {
+    "key": "JP:Prefecture:Nara:9faacc0e",
+    "resource": "FOOD",
+    "yieldPerTurn": 9,
+    "population": 1882956,
+    "mobility": 9,
+    "support": 76,
+    "stability": 64
+  },
+  {
+    "key": "JP:Prefecture:Niigata:d7cd3b41",
+    "resource": "ENERGY",
+    "yieldPerTurn": 17,
+    "population": 6680603,
+    "mobility": 8,
+    "support": 74,
+    "stability": 67
+  },
+  {
+    "key": "JP:Prefecture:Oita:5aa28eba",
+    "resource": "ENERGY",
+    "yieldPerTurn": 15,
+    "population": 4358697,
+    "mobility": 5,
+    "support": 77,
+    "stability": 60
+  },
+  {
+    "key": "JP:Prefecture:Okayama:97dcbc35",
+    "resource": "WOOD",
+    "yieldPerTurn": 13,
+    "population": 7391555,
+    "mobility": 3,
+    "support": 78,
+    "stability": 83
+  },
+  {
+    "key": "JP:Prefecture:Okinawa:8ea9d134",
+    "resource": "FOOD",
+    "yieldPerTurn": 16,
+    "population": 5491873,
+    "mobility": 3,
+    "support": 69,
+    "stability": 71
+  },
+  {
+    "key": "JP:Urban Prefecture:Osaka:e6993b63",
+    "resource": "WOOD",
+    "yieldPerTurn": 16,
+    "population": 1518209,
+    "mobility": 9,
+    "support": 79,
+    "stability": 56
+  },
+  {
+    "key": "JP:Prefecture:Saga:e7b54e98",
+    "resource": "METAL",
+    "yieldPerTurn": 14,
+    "population": 887003,
+    "mobility": 3,
+    "support": 85,
+    "stability": 66
+  },
+  {
+    "key": "JP:Prefecture:Saitama:1d6fe9b7",
+    "resource": "ENERGY",
+    "yieldPerTurn": 13,
+    "population": 7458565,
+    "mobility": 8,
+    "support": 69,
+    "stability": 54
+  },
+  {
+    "key": "JP:Prefecture:Shiga:91b0548e",
+    "resource": "METAL",
+    "yieldPerTurn": 16,
+    "population": 10748092,
+    "mobility": 9,
+    "support": 75,
+    "stability": 83
+  },
+  {
+    "key": "JP:Prefecture:Shimane:929f0da7",
+    "resource": "GOLD",
+    "yieldPerTurn": 10,
+    "population": 10244050,
+    "mobility": 8,
+    "support": 72,
+    "stability": 72
+  },
+  {
+    "key": "JP:Prefecture:Shizuoka:6b6ef69a",
+    "resource": "FOOD",
+    "yieldPerTurn": 11,
+    "population": 9689990,
+    "mobility": 7,
+    "support": 68,
+    "stability": 83
+  },
+  {
+    "key": "JP:Prefecture:Tochigi:b7ad4407",
+    "resource": "METAL",
+    "yieldPerTurn": 8,
+    "population": 7743784,
+    "mobility": 8,
+    "support": 59,
+    "stability": 77
+  },
+  {
+    "key": "JP:Prefecture:Tokushima:949c746e",
+    "resource": "GOLD",
+    "yieldPerTurn": 16,
+    "population": 8382794,
+    "mobility": 6,
+    "support": 65,
+    "stability": 84
+  },
+  {
+    "key": "JP:Metropolis:Tokyo:ed52c2bf",
+    "resource": "GOLD",
+    "yieldPerTurn": 16,
+    "population": 17308170,
+    "mobility": 6,
+    "support": 59,
+    "stability": 53
+  },
+  {
+    "key": "JP:Prefecture:Tottori:95eaa957",
+    "resource": "ENERGY",
+    "yieldPerTurn": 6,
+    "population": 1593624,
+    "mobility": 9,
+    "support": 60,
+    "stability": 68
+  },
+  {
+    "key": "JP:Prefecture:Toyama:87dae924",
+    "resource": "GOLD",
+    "yieldPerTurn": 6,
+    "population": 1390252,
+    "mobility": 6,
+    "support": 57,
+    "stability": 80
+  },
+  {
+    "key": "JP:Prefecture:Wakayama:503f8f4d",
+    "resource": "METAL",
+    "yieldPerTurn": 12,
+    "population": 2439801,
+    "mobility": 6,
+    "support": 76,
+    "stability": 85
+  },
+  {
+    "key": "JP:Prefecture:Yamagata:52c33275",
+    "resource": "METAL",
+    "yieldPerTurn": 16,
+    "population": 12254746,
+    "mobility": 3,
+    "support": 73,
+    "stability": 84
+  },
+  {
+    "key": "JP:Prefecture:Yamaguchi:d22eaa85",
+    "resource": "METAL",
+    "yieldPerTurn": 7,
+    "population": 10279427,
+    "mobility": 3,
+    "support": 81,
+    "stability": 83
+  },
+  {
+    "key": "JP:Prefecture:Yamanashi:95470973",
+    "resource": "GOLD",
+    "yieldPerTurn": 12,
+    "population": 1371600,
+    "mobility": 8,
+    "support": 64,
+    "stability": 72
+  },
+  {
+    "key": "KP:Province:Chagang:5427e1f3",
+    "resource": "WOOD",
+    "yieldPerTurn": 8,
+    "population": 7261164,
+    "mobility": 4,
+    "support": 68,
+    "stability": 69
+  },
+  {
+    "key": "KP:Special City:Kaesong:445e30f8",
+    "resource": "GOLD",
+    "yieldPerTurn": 14,
+    "population": 7534308,
+    "mobility": 8,
+    "support": 55,
+    "stability": 81
+  },
+  {
+    "key": "KP:Province:Kangwon:f6b49c3e",
+    "resource": "FOOD",
+    "yieldPerTurn": 6,
+    "population": 1353262,
+    "mobility": 7,
+    "support": 63,
+    "stability": 50
+  },
+  {
+    "key": "KP:Special City:Nampo:c6814498",
+    "resource": "GOLD",
+    "yieldPerTurn": 20,
+    "population": 11697714,
+    "mobility": 8,
+    "support": 85,
+    "stability": 62
+  },
+  {
+    "key": "KP:Province:North Hamgyong:7131396f",
+    "resource": "GOLD",
+    "yieldPerTurn": 7,
+    "population": 5638832,
+    "mobility": 3,
+    "support": 84,
+    "stability": 57
+  },
+  {
+    "key": "KP:Province:North Hwanghae:9758a0ab",
+    "resource": "WOOD",
+    "yieldPerTurn": 9,
+    "population": 1766914,
+    "mobility": 4,
+    "support": 59,
+    "stability": 84
+  },
+  {
+    "key": "KP:Province:North Pyongan:e0be1ea3",
+    "resource": "METAL",
+    "yieldPerTurn": 13,
+    "population": 1975679,
+    "mobility": 9,
+    "support": 56,
+    "stability": 64
+  },
+  {
+    "key": "KP:Directly Governed City:Pyongyang:9a710217",
+    "resource": "FOOD",
+    "yieldPerTurn": 8,
+    "population": 6299130,
+    "mobility": 4,
+    "support": 80,
+    "stability": 71
+  },
+  {
+    "key": "KP:Special City:Rason:04da658b",
+    "resource": "GOLD",
+    "yieldPerTurn": 19,
+    "population": 10474689,
+    "mobility": 4,
+    "support": 60,
+    "stability": 77
+  },
+  {
+    "key": "KP:Province:Ryanggang:acad816b",
+    "resource": "GOLD",
+    "yieldPerTurn": 17,
+    "population": 6365139,
+    "mobility": 7,
+    "support": 83,
+    "stability": 80
+  },
+  {
+    "key": "KP:Province:South Hamgyong:3b6cdf42",
+    "resource": "ENERGY",
+    "yieldPerTurn": 7,
+    "population": 7628312,
+    "mobility": 3,
+    "support": 59,
+    "stability": 85
+  },
+  {
+    "key": "KP:Province:South Hwanghae:105b42f2",
+    "resource": "METAL",
+    "yieldPerTurn": 14,
+    "population": 2474608,
+    "mobility": 3,
+    "support": 56,
+    "stability": 67
+  },
+  {
+    "key": "KP:Province:South Pyongan:6bccc0af",
+    "resource": "WOOD",
+    "yieldPerTurn": 9,
+    "population": 5021861,
+    "mobility": 4,
+    "support": 61,
+    "stability": 51
+  },
+  {
+    "key": "KR:Metropolitan City:Busan:13f8f94e",
+    "resource": "GOLD",
+    "yieldPerTurn": 18,
+    "population": 4612450,
+    "mobility": 9,
+    "support": 58,
+    "stability": 71
+  },
+  {
+    "key": "KR:Province:Chungcheongbuk-do:a7508052",
+    "resource": "WOOD",
+    "yieldPerTurn": 10,
+    "population": 4371450,
+    "mobility": 6,
+    "support": 82,
+    "stability": 57
+  },
+  {
+    "key": "KR:Province:Chungcheongnam-do:655ada93",
+    "resource": "ENERGY",
+    "yieldPerTurn": 15,
+    "population": 3700862,
+    "mobility": 7,
+    "support": 74,
+    "stability": 54
+  },
+  {
+    "key": "KR:Metropolitan City:Daegu:eb690973",
+    "resource": "GOLD",
+    "yieldPerTurn": 19,
+    "population": 11104326,
+    "mobility": 7,
+    "support": 81,
+    "stability": 69
+  },
+  {
+    "key": "KR:Metropolitan City:Daejeon:26528ea2",
+    "resource": "GOLD",
+    "yieldPerTurn": 18,
+    "population": 10474725,
+    "mobility": 7,
+    "support": 80,
+    "stability": 75
+  },
+  {
+    "key": "KR:Special Self-Governing Province:Gangwon-do:2d2deab8",
+    "resource": "ENERGY",
+    "yieldPerTurn": 15,
+    "population": 8231107,
+    "mobility": 6,
+    "support": 84,
+    "stability": 79
+  },
+  {
+    "key": "KR:Metropolitan City:Gwangju:5ca68d4b",
+    "resource": "GOLD",
+    "yieldPerTurn": 9,
+    "population": 11977816,
+    "mobility": 3,
+    "support": 65,
+    "stability": 61
+  },
+  {
+    "key": "KR:Province:Gyeonggi-do:884296e1",
+    "resource": "ENERGY",
+    "yieldPerTurn": 14,
+    "population": 4109517,
+    "mobility": 5,
+    "support": 56,
+    "stability": 83
+  },
+  {
+    "key": "KR:Province:Gyeongsangbuk-do:c544cde4",
+    "resource": "GOLD",
+    "yieldPerTurn": 15,
+    "population": 6087451,
+    "mobility": 5,
+    "support": 82,
+    "stability": 75
+  },
+  {
+    "key": "KR:Province:Gyeongsangnam-do:a1208ee8",
+    "resource": "WOOD",
+    "yieldPerTurn": 16,
+    "population": 5708247,
+    "mobility": 8,
+    "support": 58,
+    "stability": 75
+  },
+  {
+    "key": "KR:Metropolitan City:Incheon:ac671720",
+    "resource": "GOLD",
+    "yieldPerTurn": 17,
+    "population": 1939149,
+    "mobility": 3,
+    "support": 66,
+    "stability": 85
+  },
+  {
+    "key": "KR:Special Self-Governing Province:Jeju-do:c0a73876",
+    "resource": "WOOD",
+    "yieldPerTurn": 15,
+    "population": 2752037,
+    "mobility": 4,
+    "support": 71,
+    "stability": 75
+  },
+  {
+    "key": "KR:Province:Jeollanam-do:27ee690e",
+    "resource": "METAL",
+    "yieldPerTurn": 10,
+    "population": 2940916,
+    "mobility": 9,
+    "support": 69,
+    "stability": 65
+  },
+  {
+    "key": "KR:Special Self-Governing Province:Jeonbuk-do:9a0c7a9a",
+    "resource": "FOOD",
+    "yieldPerTurn": 16,
+    "population": 7973630,
+    "mobility": 7,
+    "support": 84,
+    "stability": 76
+  },
+  {
+    "key": "KR:Special Self-Governing City:Sejong:d3a55bce",
+    "resource": "FOOD",
+    "yieldPerTurn": 12,
+    "population": 5813345,
+    "mobility": 3,
+    "support": 80,
+    "stability": 77
+  },
+  {
+    "key": "KR:Special City:Seoul:5e1d59df",
+    "resource": "GOLD",
+    "yieldPerTurn": 17,
+    "population": 10282144,
+    "mobility": 5,
+    "support": 83,
+    "stability": 59
+  },
+  {
+    "key": "KR:Metropolitan City:Ulsan:a81a82a1",
+    "resource": "GOLD",
+    "yieldPerTurn": 13,
+    "population": 6170578,
+    "mobility": 3,
+    "support": 76,
+    "stability": 80
+  },
+  {
+    "key": "MN:Province:Arkhangai:3f07a1d3",
+    "resource": "FOOD",
+    "yieldPerTurn": 15,
+    "population": 432031,
+    "mobility": 8,
+    "support": 69,
+    "stability": 57
+  },
+  {
+    "key": "MN:Province:Bayan-Ölgii:21e862c5",
+    "resource": "METAL",
+    "yieldPerTurn": 9,
+    "population": 199849,
+    "mobility": 5,
+    "support": 74,
+    "stability": 67
+  },
+  {
+    "key": "MN:Province:Bayankhongor:f6a655dc",
+    "resource": "METAL",
+    "yieldPerTurn": 13,
+    "population": 253270,
+    "mobility": 7,
+    "support": 85,
+    "stability": 77
+  },
+  {
+    "key": "MN:Province:Bulgan:0c76572a",
+    "resource": "FOOD",
+    "yieldPerTurn": 6,
+    "population": 417561,
+    "mobility": 6,
+    "support": 73,
+    "stability": 81
+  },
+  {
+    "key": "MN:Province:Darkhan-Uul:df3f92ac",
+    "resource": "METAL",
+    "yieldPerTurn": 15,
+    "population": 572497,
+    "mobility": 9,
+    "support": 79,
+    "stability": 66
+  },
+  {
+    "key": "MN:Province:Dornod:5668378c",
+    "resource": "WOOD",
+    "yieldPerTurn": 17,
+    "population": 322688,
+    "mobility": 5,
+    "support": 71,
+    "stability": 70
+  },
+  {
+    "key": "MN:Province:Dornogovi:e976d05c",
+    "resource": "METAL",
+    "yieldPerTurn": 14,
+    "population": 151009,
+    "mobility": 9,
+    "support": 63,
+    "stability": 59
+  },
+  {
+    "key": "MN:Province:Dundgovi:37e8364c",
+    "resource": "WOOD",
+    "yieldPerTurn": 8,
+    "population": 464352,
+    "mobility": 4,
+    "support": 72,
+    "stability": 69
+  },
+  {
+    "key": "MN:Province:Govi-Altai:49693729",
+    "resource": "METAL",
+    "yieldPerTurn": 8,
+    "population": 297849,
+    "mobility": 9,
+    "support": 84,
+    "stability": 84
+  },
+  {
+    "key": "MN:Province:Govisümber:7c83eefd",
+    "resource": "FOOD",
+    "yieldPerTurn": 11,
+    "population": 270046,
+    "mobility": 6,
+    "support": 65,
+    "stability": 76
+  },
+  {
+    "key": "MN:Province:Khentii:12c7920a",
+    "resource": "METAL",
+    "yieldPerTurn": 15,
+    "population": 60467,
+    "mobility": 5,
+    "support": 66,
+    "stability": 58
+  },
+  {
+    "key": "MN:Province:Khovd:0e7df186",
+    "resource": "WOOD",
+    "yieldPerTurn": 6,
+    "population": 316881,
+    "mobility": 7,
+    "support": 74,
+    "stability": 61
+  },
+  {
+    "key": "MN:Province:Khövsgöl:a9048daa",
+    "resource": "ENERGY",
+    "yieldPerTurn": 9,
+    "population": 138596,
+    "mobility": 9,
+    "support": 72,
+    "stability": 76
+  },
+  {
+    "key": "MN:Province:Orkhon:ce547659",
+    "resource": "METAL",
+    "yieldPerTurn": 11,
+    "population": 315184,
+    "mobility": 5,
+    "support": 71,
+    "stability": 69
+  },
+  {
+    "key": "MN:Province:Selenge:9fc5115b",
+    "resource": "METAL",
+    "yieldPerTurn": 14,
+    "population": 111027,
+    "mobility": 9,
+    "support": 77,
+    "stability": 85
+  },
+  {
+    "key": "MN:Province:Sükhbaatar:2980f452",
+    "resource": "GOLD",
+    "yieldPerTurn": 18,
+    "population": 214117,
+    "mobility": 9,
+    "support": 59,
+    "stability": 79
+  },
+  {
+    "key": "MN:Province:Töv:d2960029",
+    "resource": "ENERGY",
+    "yieldPerTurn": 12,
+    "population": 210699,
+    "mobility": 9,
+    "support": 82,
+    "stability": 56
+  },
+  {
+    "key": "MN:Municipality:Ulaanbaatar:93cd1342",
+    "resource": "GOLD",
+    "yieldPerTurn": 16,
+    "population": 538236,
+    "mobility": 3,
+    "support": 78,
+    "stability": 59
+  },
+  {
+    "key": "MN:Province:Uvs:a622eacb",
+    "resource": "METAL",
+    "yieldPerTurn": 15,
+    "population": 286295,
+    "mobility": 5,
+    "support": 82,
+    "stability": 57
+  },
+  {
+    "key": "MN:Province:Zavkhan:79856291",
+    "resource": "GOLD",
+    "yieldPerTurn": 9,
+    "population": 636586,
+    "mobility": 3,
+    "support": 76,
+    "stability": 75
+  },
+  {
+    "key": "MN:Province:Ömnögovi:06cfa9aa",
+    "resource": "WOOD",
+    "yieldPerTurn": 17,
+    "population": 573430,
+    "mobility": 8,
+    "support": 58,
+    "stability": 62
+  },
+  {
+    "key": "MN:Province:Övörkhangai:dc63659a",
+    "resource": "GOLD",
+    "yieldPerTurn": 15,
+    "population": 114162,
+    "mobility": 4,
+    "support": 67,
+    "stability": 70
+  },
+  {
+    "key": "TW:County:Changhua:bff96953",
+    "resource": "FOOD",
+    "yieldPerTurn": 13,
+    "population": 3745895,
+    "mobility": 4,
+    "support": 77,
+    "stability": 74
+  },
+  {
+    "key": "TW:City:Chiayi:816c0db7",
+    "resource": "METAL",
+    "yieldPerTurn": 7,
+    "population": 907500,
+    "mobility": 5,
+    "support": 58,
+    "stability": 71
+  },
+  {
+    "key": "TW:County:Chiayi:ab3753ff",
+    "resource": "METAL",
+    "yieldPerTurn": 18,
+    "population": 3611113,
+    "mobility": 6,
+    "support": 79,
+    "stability": 66
+  },
+  {
+    "key": "TW:City:Hsinchu:c2d2788c",
+    "resource": "WOOD",
+    "yieldPerTurn": 15,
+    "population": 4908272,
+    "mobility": 7,
+    "support": 61,
+    "stability": 72
+  },
+  {
+    "key": "TW:County:Hsinchu:a4037f7d",
+    "resource": "WOOD",
+    "yieldPerTurn": 13,
+    "population": 7796928,
+    "mobility": 7,
+    "support": 84,
+    "stability": 71
+  },
+  {
+    "key": "TW:County:Hualien:7a041f51",
+    "resource": "GOLD",
+    "yieldPerTurn": 12,
+    "population": 4669714,
+    "mobility": 5,
+    "support": 72,
+    "stability": 53
+  },
+  {
+    "key": "TW:Special Municipality:Kaohsiung:5e6d83f9",
+    "resource": "GOLD",
+    "yieldPerTurn": 17,
+    "population": 7794631,
+    "mobility": 3,
+    "support": 75,
+    "stability": 58
+  },
+  {
+    "key": "TW:City:Keelung:0b02213c",
+    "resource": "ENERGY",
+    "yieldPerTurn": 6,
+    "population": 6133241,
+    "mobility": 7,
+    "support": 61,
+    "stability": 66
+  },
+  {
+    "key": "TW:County:Kinmen:d0eab912",
+    "resource": "FOOD",
+    "yieldPerTurn": 16,
+    "population": 3405746,
+    "mobility": 9,
+    "support": 62,
+    "stability": 77
+  },
+  {
+    "key": "TW:County:Lienchiang:9cafeaf2",
+    "resource": "FOOD",
+    "yieldPerTurn": 15,
+    "population": 5249767,
+    "mobility": 6,
+    "support": 85,
+    "stability": 66
+  },
+  {
+    "key": "TW:County:Miaoli:a5e8a17e",
+    "resource": "ENERGY",
+    "yieldPerTurn": 17,
+    "population": 2276325,
+    "mobility": 5,
+    "support": 84,
+    "stability": 77
+  },
+  {
+    "key": "TW:County:Nantou:48dedc9c",
+    "resource": "METAL",
+    "yieldPerTurn": 10,
+    "population": 8244661,
+    "mobility": 5,
+    "support": 62,
+    "stability": 71
+  },
+  {
+    "key": "TW:Special Municipality:New Taipei:99253018",
+    "resource": "GOLD",
+    "yieldPerTurn": 15,
+    "population": 8382112,
+    "mobility": 3,
+    "support": 67,
+    "stability": 78
+  },
+  {
+    "key": "TW:County:Penghu:961bb4d5",
+    "resource": "FOOD",
+    "yieldPerTurn": 18,
+    "population": 2512159,
+    "mobility": 4,
+    "support": 78,
+    "stability": 84
+  },
+  {
+    "key": "TW:County:Pingtung:ef8615fd",
+    "resource": "WOOD",
+    "yieldPerTurn": 10,
+    "population": 6739020,
+    "mobility": 5,
+    "support": 56,
+    "stability": 61
+  },
+  {
+    "key": "TW:Special Municipality:Taichung:87a111ba",
+    "resource": "GOLD",
+    "yieldPerTurn": 16,
+    "population": 4462167,
+    "mobility": 4,
+    "support": 76,
+    "stability": 67
+  },
+  {
+    "key": "TW:Special Municipality:Tainan:e1d28468",
+    "resource": "GOLD",
+    "yieldPerTurn": 9,
+    "population": 9276441,
+    "mobility": 8,
+    "support": 85,
+    "stability": 81
+  },
+  {
+    "key": "TW:Special Municipality:Taipei:c751fa14",
+    "resource": "GOLD",
+    "yieldPerTurn": 13,
+    "population": 2695537,
+    "mobility": 5,
+    "support": 70,
+    "stability": 58
+  },
+  {
+    "key": "TW:County:Taitung:1ed06d53",
+    "resource": "METAL",
+    "yieldPerTurn": 12,
+    "population": 4022665,
+    "mobility": 4,
+    "support": 63,
+    "stability": 85
+  },
+  {
+    "key": "TW:Special Municipality:Taoyuan:a77136d6",
+    "resource": "GOLD",
+    "yieldPerTurn": 15,
+    "population": 1459605,
+    "mobility": 3,
+    "support": 76,
+    "stability": 65
+  },
+  {
+    "key": "TW:County:Yilan:36389a0c",
+    "resource": "ENERGY",
+    "yieldPerTurn": 11,
+    "population": 2262027,
+    "mobility": 5,
+    "support": 82,
+    "stability": 74
+  },
+  {
+    "key": "TW:County:Yunlin:6862ce8f",
+    "resource": "GOLD",
+    "yieldPerTurn": 10,
+    "population": 7958231,
+    "mobility": 5,
+    "support": 62,
+    "stability": 77
+  }
+]

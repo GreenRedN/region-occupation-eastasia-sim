@@ -1,0 +1,1542 @@
+[
+  {
+    "key": "CN:Province:Anhui:6738f8d1",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "안후이성",
+    "name_en": "Anhui",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#cc3032"
+  },
+  {
+    "key": "CN:Municipality:Beijing:403eee54",
+    "iso2": "CN",
+    "type": "Municipality",
+    "name_ko": "베이징시",
+    "name_en": "Beijing",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#7e45dc"
+  },
+  {
+    "key": "CN:Municipality:Chongqing:a5f4cc64",
+    "iso2": "CN",
+    "type": "Municipality",
+    "name_ko": "충칭시",
+    "name_en": "Chongqing",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#282a83"
+  },
+  {
+    "key": "CN:Province:Fujian:1adaa5fc",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "푸젠성",
+    "name_en": "Fujian",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#bb849c"
+  },
+  {
+    "key": "CN:Province:Gansu:6dcebf99",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "간쑤성",
+    "name_en": "Gansu",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#a661c5"
+  },
+  {
+    "key": "CN:Province:Guangdong:a15c1e9d",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "광둥성",
+    "name_en": "Guangdong",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#95b1a8"
+  },
+  {
+    "key": "CN:Autonomous Region:Guangxi:da309f8b",
+    "iso2": "CN",
+    "type": "Autonomous Region",
+    "name_ko": "광시 좡족 자치구",
+    "name_en": "Guangxi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#214ad7"
+  },
+  {
+    "key": "CN:Province:Guizhou:e586219f",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "구이저우성",
+    "name_en": "Guizhou",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#46d22d"
+  },
+  {
+    "key": "CN:Province:Hainan:cb1bc4ed",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "하이난성",
+    "name_en": "Hainan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#c65eb5"
+  },
+  {
+    "key": "CN:Province:Hebei:eabbe26d",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "허베이성",
+    "name_en": "Hebei",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#695b52"
+  },
+  {
+    "key": "CN:Province:Heilongjiang:82d7965d",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "헤이룽장성",
+    "name_en": "Heilongjiang",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#df85ce"
+  },
+  {
+    "key": "CN:Province:Henan:59789a09",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "허난성",
+    "name_en": "Henan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#abd51c"
+  },
+  {
+    "key": "CN:Special Administrative Region:Hong Kong:f1d8fb9e",
+    "iso2": "CN",
+    "type": "Special Administrative Region",
+    "name_ko": "홍콩",
+    "name_en": "Hong Kong",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#603923"
+  },
+  {
+    "key": "CN:Province:Hubei:7b28c583",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "후베이성",
+    "name_en": "Hubei",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#2ba48f"
+  },
+  {
+    "key": "CN:Province:Hunan:ec18d9ea",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "후난성",
+    "name_en": "Hunan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#a1282a"
+  },
+  {
+    "key": "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+    "iso2": "CN",
+    "type": "Autonomous Region",
+    "name_ko": "내몽골 자치구",
+    "name_en": "Inner Mongolia",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#8b7c88"
+  },
+  {
+    "key": "CN:Province:Jiangsu:c6cd8143",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "장쑤성",
+    "name_en": "Jiangsu",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#36bb6d"
+  },
+  {
+    "key": "CN:Province:Jiangxi:cbdf7f8c",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "장시성",
+    "name_en": "Jiangxi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#36912f"
+  },
+  {
+    "key": "CN:Province:Jilin:d457453a",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "지린성",
+    "name_en": "Jilin",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#e33826"
+  },
+  {
+    "key": "CN:Province:Liaoning:8f1ed029",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "랴오닝성",
+    "name_en": "Liaoning",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#8c5420"
+  },
+  {
+    "key": "CN:Special Administrative Region:Macau:9da73f33",
+    "iso2": "CN",
+    "type": "Special Administrative Region",
+    "name_ko": "마카오",
+    "name_en": "Macau",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#c1cd24"
+  },
+  {
+    "key": "CN:Autonomous Region:Ningxia:0099b1e9",
+    "iso2": "CN",
+    "type": "Autonomous Region",
+    "name_ko": "닝샤 후이족 자치구",
+    "name_en": "Ningxia",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#d3553d"
+  },
+  {
+    "key": "CN:Province:Qinghai:f5371d3d",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "칭하이성",
+    "name_en": "Qinghai",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#5d79d6"
+  },
+  {
+    "key": "CN:Province:Shaanxi:9fb18fd6",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "섬서성",
+    "name_en": "Shaanxi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#2231ce"
+  },
+  {
+    "key": "CN:Province:Shandong:491d7751",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "산둥성",
+    "name_en": "Shandong",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#d47f2c"
+  },
+  {
+    "key": "CN:Municipality:Shanghai:8eb25fa9",
+    "iso2": "CN",
+    "type": "Municipality",
+    "name_ko": "상하이시",
+    "name_en": "Shanghai",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#27275f"
+  },
+  {
+    "key": "CN:Province:Shanxi:6c4a3297",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "산서성",
+    "name_en": "Shanxi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#5b521d"
+  },
+  {
+    "key": "CN:Province:Sichuan:23fdd5ef",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "쓰촨성",
+    "name_en": "Sichuan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#58e089"
+  },
+  {
+    "key": "CN:Municipality:Tianjin:fae70884",
+    "iso2": "CN",
+    "type": "Municipality",
+    "name_ko": "톈진시",
+    "name_en": "Tianjin",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#566360"
+  },
+  {
+    "key": "CN:Autonomous Region:Tibet:d2d6fe59",
+    "iso2": "CN",
+    "type": "Autonomous Region",
+    "name_ko": "티베트 자치구",
+    "name_en": "Tibet",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#1e8968"
+  },
+  {
+    "key": "CN:Autonomous Region:Xinjiang:84115ba4",
+    "iso2": "CN",
+    "type": "Autonomous Region",
+    "name_ko": "신장 위구르 자치구",
+    "name_en": "Xinjiang",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#a45a67"
+  },
+  {
+    "key": "CN:Province:Yunnan:9a8f4122",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "윈난성",
+    "name_en": "Yunnan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#2842de"
+  },
+  {
+    "key": "CN:Province:Zhejiang:d1a43067",
+    "iso2": "CN",
+    "type": "Province",
+    "name_ko": "저장성",
+    "name_en": "Zhejiang",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#c8d97d"
+  },
+  {
+    "key": "JP:Prefecture:Aichi:c65c4ec7",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "아이치현",
+    "name_en": "Aichi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#aa1f21"
+  },
+  {
+    "key": "JP:Prefecture:Akita:376c81bd",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "아키타현",
+    "name_en": "Akita",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#1f36b4"
+  },
+  {
+    "key": "JP:Prefecture:Aomori:c243bcdc",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "아오모리현",
+    "name_en": "Aomori",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#5568a8"
+  },
+  {
+    "key": "JP:Prefecture:Chiba:ff1a78fb",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "지바현",
+    "name_en": "Chiba",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#b41e6b"
+  },
+  {
+    "key": "JP:Prefecture:Ehime:86aa42cf",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "에히메현",
+    "name_en": "Ehime",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#212d32"
+  },
+  {
+    "key": "JP:Prefecture:Fukui:813a8dc0",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "후쿠이현",
+    "name_en": "Fukui",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#e324cb"
+  },
+  {
+    "key": "JP:Prefecture:Fukuoka:a709314b",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "후쿠오카현",
+    "name_en": "Fukuoka",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#40d5d7"
+  },
+  {
+    "key": "JP:Prefecture:Fukushima:c527223a",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "후쿠시마현",
+    "name_en": "Fukushima",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#d7b44e"
+  },
+  {
+    "key": "JP:Prefecture:Gifu:c68d042a",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "기후현",
+    "name_en": "Gifu",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#c722b1"
+  },
+  {
+    "key": "JP:Prefecture:Gunma:43309744",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "군마현",
+    "name_en": "Gunma",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#2f7972"
+  },
+  {
+    "key": "JP:Prefecture:Hiroshima:5b03c670",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "히로시마현",
+    "name_en": "Hiroshima",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#d537be"
+  },
+  {
+    "key": "JP:Circuit:Hokkaido:a20322cf",
+    "iso2": "JP",
+    "type": "Circuit",
+    "name_ko": "홋카이도",
+    "name_en": "Hokkaido",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#2b62a8"
+  },
+  {
+    "key": "JP:Prefecture:Hyogo:850f9275",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "효고현",
+    "name_en": "Hyogo",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#36c8a8"
+  },
+  {
+    "key": "JP:Prefecture:Ibaraki:9d888594",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "이바라키현",
+    "name_en": "Ibaraki",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#81a49d"
+  },
+  {
+    "key": "JP:Prefecture:Ishikawa:353f8b92",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "이시카와현",
+    "name_en": "Ishikawa",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#ade21d"
+  },
+  {
+    "key": "JP:Prefecture:Iwate:3503cf24",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "이와테현",
+    "name_en": "Iwate",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#287dae"
+  },
+  {
+    "key": "JP:Prefecture:Kagawa:a0c12885",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "카가와현",
+    "name_en": "Kagawa",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#75d6ce"
+  },
+  {
+    "key": "JP:Prefecture:Kagoshima:cbda3e9b",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "가고시마현",
+    "name_en": "Kagoshima",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#7044dd"
+  },
+  {
+    "key": "JP:Prefecture:Kanagawa:ba2342d2",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "가나가와현",
+    "name_en": "Kanagawa",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#2c6294"
+  },
+  {
+    "key": "JP:Prefecture:Kochi:88effae6",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "고치현",
+    "name_en": "Kochi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#9d2da6"
+  },
+  {
+    "key": "JP:Prefecture:Kumamoto:70a4a098",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "구마모토현",
+    "name_en": "Kumamoto",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#88dbdf"
+  },
+  {
+    "key": "JP:Urban Prefecture:Kyoto:e9257984",
+    "iso2": "JP",
+    "type": "Urban Prefecture",
+    "name_ko": "교토부",
+    "name_en": "Kyoto",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#dce3b0"
+  },
+  {
+    "key": "JP:Prefecture:Mie:807581ce",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "미에현",
+    "name_en": "Mie",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#27d72c"
+  },
+  {
+    "key": "JP:Prefecture:Miyagi:21d2d160",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "미야기현",
+    "name_en": "Miyagi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#d58d92"
+  },
+  {
+    "key": "JP:Prefecture:Miyazaki:fb180e84",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "미야자키현",
+    "name_en": "Miyazaki",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#e26466"
+  },
+  {
+    "key": "JP:Prefecture:Nagano:f16ce1e1",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "나가노현",
+    "name_en": "Nagano",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#239f66"
+  },
+  {
+    "key": "JP:Prefecture:Nagasaki:dbc7bc2e",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "나가사키현",
+    "name_en": "Nagasaki",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#6b1e65"
+  },
+  {
+    "key": "JP:Prefecture:Nara:9faacc0e",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "나라현",
+    "name_en": "Nara",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#4fe221"
+  },
+  {
+    "key": "JP:Prefecture:Niigata:d7cd3b41",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "니가타현",
+    "name_en": "Niigata",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#8bc297"
+  },
+  {
+    "key": "JP:Prefecture:Oita:5aa28eba",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "오이타현",
+    "name_en": "Oita",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#8ec732"
+  },
+  {
+    "key": "JP:Prefecture:Okayama:97dcbc35",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "오카야마현",
+    "name_en": "Okayama",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#4e5378"
+  },
+  {
+    "key": "JP:Prefecture:Okinawa:8ea9d134",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "오키나와현",
+    "name_en": "Okinawa",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#54d027"
+  },
+  {
+    "key": "JP:Urban Prefecture:Osaka:e6993b63",
+    "iso2": "JP",
+    "type": "Urban Prefecture",
+    "name_ko": "오사카부",
+    "name_en": "Osaka",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#888e31"
+  },
+  {
+    "key": "JP:Prefecture:Saga:e7b54e98",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "사가현",
+    "name_en": "Saga",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#291c2b"
+  },
+  {
+    "key": "JP:Prefecture:Saitama:1d6fe9b7",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "사이타마현",
+    "name_en": "Saitama",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#a76a81"
+  },
+  {
+    "key": "JP:Prefecture:Shiga:91b0548e",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "시가현",
+    "name_en": "Shiga",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#44cb74"
+  },
+  {
+    "key": "JP:Prefecture:Shimane:929f0da7",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "시마네현",
+    "name_en": "Shimane",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#24d59c"
+  },
+  {
+    "key": "JP:Prefecture:Shizuoka:6b6ef69a",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "시즈오카현",
+    "name_en": "Shizuoka",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#8bd7db"
+  },
+  {
+    "key": "JP:Prefecture:Tochigi:b7ad4407",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "도치기현",
+    "name_en": "Tochigi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#df1f81"
+  },
+  {
+    "key": "JP:Prefecture:Tokushima:949c746e",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "도쿠시마현",
+    "name_en": "Tokushima",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#e07520"
+  },
+  {
+    "key": "JP:Metropolis:Tokyo:ed52c2bf",
+    "iso2": "JP",
+    "type": "Metropolis",
+    "name_ko": "도쿄도",
+    "name_en": "Tokyo",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#ca2f23"
+  },
+  {
+    "key": "JP:Prefecture:Tottori:95eaa957",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "돗토리현",
+    "name_en": "Tottori",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#336f80"
+  },
+  {
+    "key": "JP:Prefecture:Toyama:87dae924",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "도야마현",
+    "name_en": "Toyama",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#1d2555"
+  },
+  {
+    "key": "JP:Prefecture:Wakayama:503f8f4d",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "와카야마현",
+    "name_en": "Wakayama",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#cc59a8"
+  },
+  {
+    "key": "JP:Prefecture:Yamagata:52c33275",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "야마가타현",
+    "name_en": "Yamagata",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#dfa838"
+  },
+  {
+    "key": "JP:Prefecture:Yamaguchi:d22eaa85",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "야마구치현",
+    "name_en": "Yamaguchi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#c03799"
+  },
+  {
+    "key": "JP:Prefecture:Yamanashi:95470973",
+    "iso2": "JP",
+    "type": "Prefecture",
+    "name_ko": "야마나시현",
+    "name_en": "Yamanashi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#9959d7"
+  },
+  {
+    "key": "KP:Province:Chagang:5427e1f3",
+    "iso2": "KP",
+    "type": "Province",
+    "name_ko": "자강도",
+    "name_en": "Chagang",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#d52ccc"
+  },
+  {
+    "key": "KP:Special City:Kaesong:445e30f8",
+    "iso2": "KP",
+    "type": "Special City",
+    "name_ko": "개성시",
+    "name_en": "Kaesong",
+    "display_ko": "개성시",
+    "display_en": "Kaesong",
+    "hex": "#4ba732"
+  },
+  {
+    "key": "KP:Province:Kangwon:f6b49c3e",
+    "iso2": "KP",
+    "type": "Province",
+    "name_ko": "강원도",
+    "name_en": "Kangwon",
+    "display_ko": "강원도",
+    "display_en": "Kangwon",
+    "hex": "#9a1ce1"
+  },
+  {
+    "key": "KP:Special City:Nampo:c6814498",
+    "iso2": "KP",
+    "type": "Special City",
+    "name_ko": "남포시",
+    "name_en": "Nampo",
+    "display_ko": "남포시",
+    "display_en": "Nampo",
+    "hex": "#dd914e"
+  },
+  {
+    "key": "KP:Province:North Hamgyong:7131396f",
+    "iso2": "KP",
+    "type": "Province",
+    "name_ko": "함경북도",
+    "name_en": "North Hamgyong",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#21ae2c"
+  },
+  {
+    "key": "KP:Province:North Hwanghae:9758a0ab",
+    "iso2": "KP",
+    "type": "Province",
+    "name_ko": "황해북도",
+    "name_en": "North Hwanghae",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#5d2172"
+  },
+  {
+    "key": "KP:Province:North Pyongan:e0be1ea3",
+    "iso2": "KP",
+    "type": "Province",
+    "name_ko": "평안북도",
+    "name_en": "North Pyongan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#929f83"
+  },
+  {
+    "key": "KP:Directly Governed City:Pyongyang:9a710217",
+    "iso2": "KP",
+    "type": "Directly Governed City",
+    "name_ko": "평양시",
+    "name_en": "Pyongyang",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#212a40"
+  },
+  {
+    "key": "KP:Special City:Rason:04da658b",
+    "iso2": "KP",
+    "type": "Special City",
+    "name_ko": "라선시",
+    "name_en": "Rason",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#3147ad"
+  },
+  {
+    "key": "KP:Province:Ryanggang:acad816b",
+    "iso2": "KP",
+    "type": "Province",
+    "name_ko": "양강도",
+    "name_en": "Ryanggang",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#27ae21"
+  },
+  {
+    "key": "KP:Province:South Hamgyong:3b6cdf42",
+    "iso2": "KP",
+    "type": "Province",
+    "name_ko": "함경남도",
+    "name_en": "South Hamgyong",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#1ea02e"
+  },
+  {
+    "key": "KP:Province:South Hwanghae:105b42f2",
+    "iso2": "KP",
+    "type": "Province",
+    "name_ko": "황해남도",
+    "name_en": "South Hwanghae",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#59a771"
+  },
+  {
+    "key": "KP:Province:South Pyongan:6bccc0af",
+    "iso2": "KP",
+    "type": "Province",
+    "name_ko": "평안남도",
+    "name_en": "South Pyongan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#48a533"
+  },
+  {
+    "key": "KR:Metropolitan City:Busan:13f8f94e",
+    "iso2": "KR",
+    "type": "Metropolitan City",
+    "name_ko": "부산광역시",
+    "name_en": "Busan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#50d566"
+  },
+  {
+    "key": "KR:Province:Chungcheongbuk-do:a7508052",
+    "iso2": "KR",
+    "type": "Province",
+    "name_ko": "충청북도",
+    "name_en": "Chungcheongbuk-do",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#2d4884"
+  },
+  {
+    "key": "KR:Province:Chungcheongnam-do:655ada93",
+    "iso2": "KR",
+    "type": "Province",
+    "name_ko": "충청남도",
+    "name_en": "Chungcheongnam-do",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#6b4e25"
+  },
+  {
+    "key": "KR:Metropolitan City:Daegu:eb690973",
+    "iso2": "KR",
+    "type": "Metropolitan City",
+    "name_ko": "대구광역시",
+    "name_en": "Daegu",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#8c2e47"
+  },
+  {
+    "key": "KR:Metropolitan City:Daejeon:26528ea2",
+    "iso2": "KR",
+    "type": "Metropolitan City",
+    "name_ko": "대전광역시",
+    "name_en": "Daejeon",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#241d51"
+  },
+  {
+    "key": "KR:Special Self-Governing Province:Gangwon-do:2d2deab8",
+    "iso2": "KR",
+    "type": "Special Self-Governing Province",
+    "name_ko": "강원특별자치도",
+    "name_en": "Gangwon-do",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#dc231e"
+  },
+  {
+    "key": "KR:Metropolitan City:Gwangju:5ca68d4b",
+    "iso2": "KR",
+    "type": "Metropolitan City",
+    "name_ko": "광주광역시",
+    "name_en": "Gwangju",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#4b2fdd"
+  },
+  {
+    "key": "KR:Province:Gyeonggi-do:884296e1",
+    "iso2": "KR",
+    "type": "Province",
+    "name_ko": "경기도",
+    "name_en": "Gyeonggi-do",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#e3b253"
+  },
+  {
+    "key": "KR:Province:Gyeongsangbuk-do:c544cde4",
+    "iso2": "KR",
+    "type": "Province",
+    "name_ko": "경상북도",
+    "name_en": "Gyeongsangbuk-do",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#2eab1c"
+  },
+  {
+    "key": "KR:Province:Gyeongsangnam-do:a1208ee8",
+    "iso2": "KR",
+    "type": "Province",
+    "name_ko": "경상남도",
+    "name_en": "Gyeongsangnam-do",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#7e50e3"
+  },
+  {
+    "key": "KR:Metropolitan City:Incheon:ac671720",
+    "iso2": "KR",
+    "type": "Metropolitan City",
+    "name_ko": "인천광역시",
+    "name_en": "Incheon",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#b25bba"
+  },
+  {
+    "key": "KR:Special Self-Governing Province:Jeju-do:c0a73876",
+    "iso2": "KR",
+    "type": "Special Self-Governing Province",
+    "name_ko": "제주특별자치도",
+    "name_en": "Jeju-do",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#41743e"
+  },
+  {
+    "key": "KR:Province:Jeollanam-do:27ee690e",
+    "iso2": "KR",
+    "type": "Province",
+    "name_ko": "전라남도",
+    "name_en": "Jeollanam-do",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#8c6cd4"
+  },
+  {
+    "key": "KR:Special Self-Governing Province:Jeonbuk-do:9a0c7a9a",
+    "iso2": "KR",
+    "type": "Special Self-Governing Province",
+    "name_ko": "전북특별자치도",
+    "name_en": "Jeonbuk-do",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#681e21"
+  },
+  {
+    "key": "KR:Special Self-Governing City:Sejong:d3a55bce",
+    "iso2": "KR",
+    "type": "Special Self-Governing City",
+    "name_ko": "세종특별자치시",
+    "name_en": "Sejong",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#7dd695"
+  },
+  {
+    "key": "KR:Special City:Seoul:5e1d59df",
+    "iso2": "KR",
+    "type": "Special City",
+    "name_ko": "서울특별시",
+    "name_en": "Seoul",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#245bd2"
+  },
+  {
+    "key": "KR:Metropolitan City:Ulsan:a81a82a1",
+    "iso2": "KR",
+    "type": "Metropolitan City",
+    "name_ko": "울산광역시",
+    "name_en": "Ulsan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#88e024"
+  },
+  {
+    "key": "MN:Province:Arkhangai:3f07a1d3",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "아르항가이",
+    "name_en": "Arkhangai",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#dc6f2c"
+  },
+  {
+    "key": "MN:Province:Bayan-Ölgii:21e862c5",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "바양울기",
+    "name_en": "Bayan-Ölgii",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#5d2c2e"
+  },
+  {
+    "key": "MN:Province:Bayankhongor:f6a655dc",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "바양홍고르",
+    "name_en": "Bayankhongor",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#93cad5"
+  },
+  {
+    "key": "MN:Province:Bulgan:0c76572a",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "불간",
+    "name_en": "Bulgan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#8aab34"
+  },
+  {
+    "key": "MN:Province:Darkhan-Uul:df3f92ac",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "다르항올",
+    "name_en": "Darkhan-Uul",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#999a70"
+  },
+  {
+    "key": "MN:Province:Dornod:5668378c",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "도르노드",
+    "name_en": "Dornod",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#bf33ae"
+  },
+  {
+    "key": "MN:Province:Dornogovi:e976d05c",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "도르노고비",
+    "name_en": "Dornogovi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#282e23"
+  },
+  {
+    "key": "MN:Province:Dundgovi:37e8364c",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "둔드고비",
+    "name_en": "Dundgovi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#cc3062"
+  },
+  {
+    "key": "MN:Province:Govi-Altai:49693729",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "고비알타이",
+    "name_en": "Govi-Altai",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#9eb350"
+  },
+  {
+    "key": "MN:Province:Govisümber:7c83eefd",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "고비숨베르",
+    "name_en": "Govisümber",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#2a211e"
+  },
+  {
+    "key": "MN:Province:Khentii:12c7920a",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "헨티",
+    "name_en": "Khentii",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#28a49c"
+  },
+  {
+    "key": "MN:Province:Khovd:0e7df186",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "호브드",
+    "name_en": "Khovd",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#de8225"
+  },
+  {
+    "key": "MN:Province:Khövsgöl:a9048daa",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "훕스골",
+    "name_en": "Khövsgöl",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#8c53d2"
+  },
+  {
+    "key": "MN:Province:Orkhon:ce547659",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "오르혼",
+    "name_en": "Orkhon",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#a921b9"
+  },
+  {
+    "key": "MN:Province:Selenge:9fc5115b",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "셀렝게",
+    "name_en": "Selenge",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#dd411c"
+  },
+  {
+    "key": "MN:Province:Sükhbaatar:2980f452",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "수흐바타르",
+    "name_en": "Sükhbaatar",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#6dc5bf"
+  },
+  {
+    "key": "MN:Province:Töv:d2960029",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "투브",
+    "name_en": "Töv",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#83b92d"
+  },
+  {
+    "key": "MN:Municipality:Ulaanbaatar:93cd1342",
+    "iso2": "MN",
+    "type": "Municipality",
+    "name_ko": "울란바토르",
+    "name_en": "Ulaanbaatar",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#8fd332"
+  },
+  {
+    "key": "MN:Province:Uvs:a622eacb",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "옵스",
+    "name_en": "Uvs",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#2ddb39"
+  },
+  {
+    "key": "MN:Province:Zavkhan:79856291",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "자브항",
+    "name_en": "Zavkhan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#2e1d27"
+  },
+  {
+    "key": "MN:Province:Ömnögovi:06cfa9aa",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "움누고비",
+    "name_en": "Ömnögovi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#285b9a"
+  },
+  {
+    "key": "MN:Province:Övörkhangai:dc63659a",
+    "iso2": "MN",
+    "type": "Province",
+    "name_ko": "우부르항가이",
+    "name_en": "Övörkhangai",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#d06f3a"
+  },
+  {
+    "key": "TW:County:Changhua:bff96953",
+    "iso2": "TW",
+    "type": "County",
+    "name_ko": "장화현",
+    "name_en": "Changhua",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#23af44"
+  },
+  {
+    "key": "TW:City:Chiayi:816c0db7",
+    "iso2": "TW",
+    "type": "City",
+    "name_ko": "자이시",
+    "name_en": "Chiayi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#822c6b"
+  },
+  {
+    "key": "TW:County:Chiayi:ab3753ff",
+    "iso2": "TW",
+    "type": "County",
+    "name_ko": "자이현",
+    "name_en": "Chiayi",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#e06bc1"
+  },
+  {
+    "key": "TW:City:Hsinchu:c2d2788c",
+    "iso2": "TW",
+    "type": "City",
+    "name_ko": "신주시",
+    "name_en": "Hsinchu",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#dc6888"
+  },
+  {
+    "key": "TW:County:Hsinchu:a4037f7d",
+    "iso2": "TW",
+    "type": "County",
+    "name_ko": "신주현",
+    "name_en": "Hsinchu",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#cb9c54"
+  },
+  {
+    "key": "TW:County:Hualien:7a041f51",
+    "iso2": "TW",
+    "type": "County",
+    "name_ko": "화롄현",
+    "name_en": "Hualien",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#d983d6"
+  },
+  {
+    "key": "TW:Special Municipality:Kaohsiung:5e6d83f9",
+    "iso2": "TW",
+    "type": "Special Municipality",
+    "name_ko": "가오슝시",
+    "name_en": "Kaohsiung",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#6d7532"
+  },
+  {
+    "key": "TW:City:Keelung:0b02213c",
+    "iso2": "TW",
+    "type": "City",
+    "name_ko": "지룽시",
+    "name_en": "Keelung",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#becb2a"
+  },
+  {
+    "key": "TW:County:Kinmen:d0eab912",
+    "iso2": "TW",
+    "type": "County",
+    "name_ko": "진먼현",
+    "name_en": "Kinmen",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#485434"
+  },
+  {
+    "key": "TW:County:Lienchiang:9cafeaf2",
+    "iso2": "TW",
+    "type": "County",
+    "name_ko": "롄장현",
+    "name_en": "Lienchiang",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#945630"
+  },
+  {
+    "key": "TW:County:Miaoli:a5e8a17e",
+    "iso2": "TW",
+    "type": "County",
+    "name_ko": "먀오리현",
+    "name_en": "Miaoli",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#476030"
+  },
+  {
+    "key": "TW:County:Nantou:48dedc9c",
+    "iso2": "TW",
+    "type": "County",
+    "name_ko": "난터우현",
+    "name_en": "Nantou",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#be54d4"
+  },
+  {
+    "key": "TW:Special Municipality:New Taipei:99253018",
+    "iso2": "TW",
+    "type": "Special Municipality",
+    "name_ko": "신베이시",
+    "name_en": "New Taipei",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#2693df"
+  },
+  {
+    "key": "TW:County:Penghu:961bb4d5",
+    "iso2": "TW",
+    "type": "County",
+    "name_ko": "펑후현",
+    "name_en": "Penghu",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#41a7a4"
+  },
+  {
+    "key": "TW:County:Pingtung:ef8615fd",
+    "iso2": "TW",
+    "type": "County",
+    "name_ko": "핑둥현",
+    "name_en": "Pingtung",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#32374a"
+  },
+  {
+    "key": "TW:Special Municipality:Taichung:87a111ba",
+    "iso2": "TW",
+    "type": "Special Municipality",
+    "name_ko": "타이중시",
+    "name_en": "Taichung",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#3279c6"
+  },
+  {
+    "key": "TW:Special Municipality:Tainan:e1d28468",
+    "iso2": "TW",
+    "type": "Special Municipality",
+    "name_ko": "타이난시",
+    "name_en": "Tainan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#7894cc"
+  },
+  {
+    "key": "TW:Special Municipality:Taipei:c751fa14",
+    "iso2": "TW",
+    "type": "Special Municipality",
+    "name_ko": "타이베이시",
+    "name_en": "Taipei",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#53c342"
+  },
+  {
+    "key": "TW:County:Taitung:1ed06d53",
+    "iso2": "TW",
+    "type": "County",
+    "name_ko": "타이둥현",
+    "name_en": "Taitung",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#8f6025"
+  },
+  {
+    "key": "TW:Special Municipality:Taoyuan:a77136d6",
+    "iso2": "TW",
+    "type": "Special Municipality",
+    "name_ko": "타오위안시",
+    "name_en": "Taoyuan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#d1dd1e"
+  },
+  {
+    "key": "TW:County:Yilan:36389a0c",
+    "iso2": "TW",
+    "type": "County",
+    "name_ko": "이란현",
+    "name_en": "Yilan",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#4d8f46"
+  },
+  {
+    "key": "TW:County:Yunlin:6862ce8f",
+    "iso2": "TW",
+    "type": "County",
+    "name_ko": "윈린현",
+    "name_en": "Yunlin",
+    "display_ko": null,
+    "display_en": null,
+    "hex": "#30d941"
+  }
+]

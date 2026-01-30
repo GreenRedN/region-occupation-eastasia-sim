@@ -1,0 +1,772 @@
+[
+  {
+    "key": "CN:Province:Anhui:6738f8d1",
+    "x": 2211.23,
+    "y": 1087.38
+  },
+  {
+    "key": "CN:Municipality:Beijing:403eee54",
+    "x": 2186.15,
+    "y": 692.91
+  },
+  {
+    "key": "CN:Municipality:Chongqing:a5f4cc64",
+    "x": 1765.79,
+    "y": 1175.78
+  },
+  {
+    "key": "CN:Province:Fujian:1adaa5fc",
+    "x": 2252.87,
+    "y": 1378.17
+  },
+  {
+    "key": "CN:Province:Gansu:6dcebf99",
+    "x": 1527.01,
+    "y": 814.86
+  },
+  {
+    "key": "CN:Province:Guangdong:a15c1e9d",
+    "x": 2034.62,
+    "y": 1526.77
+  },
+  {
+    "key": "CN:Autonomous Region:Guangxi:da309f8b",
+    "x": 1819.13,
+    "y": 1477.55
+  },
+  {
+    "key": "CN:Province:Guizhou:e586219f",
+    "x": 1706.36,
+    "y": 1331.78
+  },
+  {
+    "key": "CN:Province:Hainan:cb1bc4ed",
+    "x": 1850.03,
+    "y": 1704.83
+  },
+  {
+    "key": "CN:Province:Hebei:eabbe26d",
+    "x": 2139.7,
+    "y": 736.89
+  },
+  {
+    "key": "CN:Province:Heilongjiang:82d7965d",
+    "x": 2711.57,
+    "y": 297.47
+  },
+  {
+    "key": "CN:Province:Henan:59789a09",
+    "x": 2017.03,
+    "y": 998.54
+  },
+  {
+    "key": "CN:Special Administrative Region:Hong Kong:f1d8fb9e",
+    "x": 2062.54,
+    "y": 1548.57
+  },
+  {
+    "key": "CN:Province:Hubei:7b28c583",
+    "x": 2006.21,
+    "y": 1129.11
+  },
+  {
+    "key": "CN:Province:Hunan:ec18d9ea",
+    "x": 1933.05,
+    "y": 1309.92
+  },
+  {
+    "key": "CN:Autonomous Region:Inner Mongolia:e87c8fe4",
+    "x": 2268.31,
+    "y": 447.5
+  },
+  {
+    "key": "CN:Province:Jiangsu:c6cd8143",
+    "x": 2345.89,
+    "y": 1043.32
+  },
+  {
+    "key": "CN:Province:Jiangxi:cbdf7f8c",
+    "x": 2132.48,
+    "y": 1314.93
+  },
+  {
+    "key": "CN:Province:Jilin:d457453a",
+    "x": 2641.99,
+    "y": 533.02
+  },
+  {
+    "key": "CN:Province:Liaoning:8f1ed029",
+    "x": 2463.09,
+    "y": 651.37
+  },
+  {
+    "key": "CN:Special Administrative Region:Macau:9da73f33",
+    "x": 2038.7,
+    "y": 1561.77
+  },
+  {
+    "key": "CN:Autonomous Region:Ningxia:0099b1e9",
+    "x": 1674.1,
+    "y": 833.98
+  },
+  {
+    "key": "CN:Province:Qinghai:f5371d3d",
+    "x": 1191.71,
+    "y": 926.67
+  },
+  {
+    "key": "CN:Province:Shaanxi:9fb18fd6",
+    "x": 1846.63,
+    "y": 912.84
+  },
+  {
+    "key": "CN:Province:Shandong:491d7751",
+    "x": 2252.1,
+    "y": 880.98
+  },
+  {
+    "key": "CN:Municipality:Shanghai:8eb25fa9",
+    "x": 2413.85,
+    "y": 1132.02
+  },
+  {
+    "key": "CN:Province:Shanxi:6c4a3297",
+    "x": 1985.61,
+    "y": 816.74
+  },
+  {
+    "key": "CN:Province:Sichuan:23fdd5ef",
+    "x": 1496.64,
+    "y": 1175.89
+  },
+  {
+    "key": "CN:Municipality:Tianjin:fae70884",
+    "x": 2213.61,
+    "y": 733.55
+  },
+  {
+    "key": "CN:Autonomous Region:Tibet:d2d6fe59",
+    "x": 767.78,
+    "y": 1094.11
+  },
+  {
+    "key": "CN:Autonomous Region:Xinjiang:84115ba4",
+    "x": 771.64,
+    "y": 621.01
+  },
+  {
+    "key": "CN:Province:Yunnan:9a8f4122",
+    "x": 1448.61,
+    "y": 1415.49
+  },
+  {
+    "key": "CN:Province:Zhejiang:d1a43067",
+    "x": 2337.96,
+    "y": 1224.19
+  },
+  {
+    "key": "JP:Prefecture:Aichi:c65c4ec7",
+    "x": 3176.73,
+    "y": 945.29
+  },
+  {
+    "key": "JP:Prefecture:Akita:376c81bd",
+    "x": 3328.51,
+    "y": 718.92
+  },
+  {
+    "key": "JP:Prefecture:Aomori:c243bcdc",
+    "x": 3331.01,
+    "y": 662.55
+  },
+  {
+    "key": "JP:Prefecture:Chiba:ff1a78fb",
+    "x": 3319.13,
+    "y": 920.33
+  },
+  {
+    "key": "JP:Prefecture:Ehime:86aa42cf",
+    "x": 2956.49,
+    "y": 1016.31
+  },
+  {
+    "key": "JP:Prefecture:Fukui:813a8dc0",
+    "x": 3136.7,
+    "y": 905.55
+  },
+  {
+    "key": "JP:Prefecture:Fukuoka:a709314b",
+    "x": 2851.67,
+    "y": 1017.23
+  },
+  {
+    "key": "JP:Prefecture:Fukushima:c527223a",
+    "x": 3314.12,
+    "y": 831.22
+  },
+  {
+    "key": "JP:Prefecture:Gifu:c68d042a",
+    "x": 3166.78,
+    "y": 906.18
+  },
+  {
+    "key": "JP:Prefecture:Gunma:43309744",
+    "x": 3255.94,
+    "y": 872.12
+  },
+  {
+    "key": "JP:Prefecture:Hiroshima:5b03c670",
+    "x": 2960.58,
+    "y": 961.69
+  },
+  {
+    "key": "JP:Circuit:Hokkaido:a20322cf",
+    "x": 3467.48,
+    "y": 538.48
+  },
+  {
+    "key": "JP:Prefecture:Hyogo:850f9275",
+    "x": 3059.85,
+    "y": 937.58
+  },
+  {
+    "key": "JP:Prefecture:Ibaraki:9d888594",
+    "x": 3320.87,
+    "y": 880.24
+  },
+  {
+    "key": "JP:Prefecture:Ishikawa:353f8b92",
+    "x": 3153.42,
+    "y": 859.02
+  },
+  {
+    "key": "JP:Prefecture:Iwate:3503cf24",
+    "x": 3373.37,
+    "y": 724.27
+  },
+  {
+    "key": "JP:Prefecture:Kagawa:a0c12885",
+    "x": 3021.7,
+    "y": 983.05
+  },
+  {
+    "key": "JP:Prefecture:Kagoshima:cbda3e9b",
+    "x": 2875.48,
+    "y": 1108.1
+  },
+  {
+    "key": "JP:Prefecture:Kanagawa:ba2342d2",
+    "x": 3273.12,
+    "y": 925.1
+  },
+  {
+    "key": "JP:Prefecture:Kochi:88effae6",
+    "x": 2974.52,
+    "y": 1026.09
+  },
+  {
+    "key": "JP:Prefecture:Kumamoto:70a4a098",
+    "x": 2870.34,
+    "y": 1058.02
+  },
+  {
+    "key": "JP:Urban Prefecture:Kyoto:e9257984",
+    "x": 3091.92,
+    "y": 932.68
+  },
+  {
+    "key": "JP:Prefecture:Mie:807581ce",
+    "x": 3140.83,
+    "y": 969.25
+  },
+  {
+    "key": "JP:Prefecture:Miyagi:21d2d160",
+    "x": 3348.02,
+    "y": 782.32
+  },
+  {
+    "key": "JP:Prefecture:Miyazaki:fb180e84",
+    "x": 2885.16,
+    "y": 1083.61
+  },
+  {
+    "key": "JP:Prefecture:Nagano:f16ce1e1",
+    "x": 3216.53,
+    "y": 891.32
+  },
+  {
+    "key": "JP:Prefecture:Nagasaki:dbc7bc2e",
+    "x": 2767.95,
+    "y": 1055.8
+  },
+  {
+    "key": "JP:Prefecture:Nara:9faacc0e",
+    "x": 3110.12,
+    "y": 975.95
+  },
+  {
+    "key": "JP:Prefecture:Niigata:d7cd3b41",
+    "x": 3267.14,
+    "y": 818.58
+  },
+  {
+    "key": "JP:Prefecture:Oita:5aa28eba",
+    "x": 2893.11,
+    "y": 1030.1
+  },
+  {
+    "key": "JP:Prefecture:Okayama:97dcbc35",
+    "x": 3009.53,
+    "y": 949.98
+  },
+  {
+    "key": "JP:Prefecture:Okinawa:8ea9d134",
+    "x": 2532.31,
+    "y": 1455.73
+  },
+  {
+    "key": "JP:Urban Prefecture:Osaka:e6993b63",
+    "x": 3094.04,
+    "y": 960.89
+  },
+  {
+    "key": "JP:Prefecture:Saga:e7b54e98",
+    "x": 2832.41,
+    "y": 1028.36
+  },
+  {
+    "key": "JP:Prefecture:Saitama:1d6fe9b7",
+    "x": 3273.11,
+    "y": 896.56
+  },
+  {
+    "key": "JP:Prefecture:Shiga:91b0548e",
+    "x": 3121.38,
+    "y": 932.69
+  },
+  {
+    "key": "JP:Prefecture:Shimane:929f0da7",
+    "x": 2944.07,
+    "y": 946.78
+  },
+  {
+    "key": "JP:Prefecture:Shizuoka:6b6ef69a",
+    "x": 3222.98,
+    "y": 938.73
+  },
+  {
+    "key": "JP:Prefecture:Tochigi:b7ad4407",
+    "x": 3297.38,
+    "y": 864.71
+  },
+  {
+    "key": "JP:Prefecture:Tokushima:949c746e",
+    "x": 3028.56,
+    "y": 997.52
+  },
+  {
+    "key": "JP:Metropolis:Tokyo:ed52c2bf",
+    "x": 3283.0,
+    "y": 910.71
+  },
+  {
+    "key": "JP:Prefecture:Tottori:95eaa957",
+    "x": 3032.33,
+    "y": 928.39
+  },
+  {
+    "key": "JP:Prefecture:Toyama:87dae924",
+    "x": 3177.15,
+    "y": 865.61
+  },
+  {
+    "key": "JP:Prefecture:Wakayama:503f8f4d",
+    "x": 3084.08,
+    "y": 997.07
+  },
+  {
+    "key": "JP:Prefecture:Yamagata:52c33275",
+    "x": 3314.83,
+    "y": 780.87
+  },
+  {
+    "key": "JP:Prefecture:Yamaguchi:d22eaa85",
+    "x": 2900.62,
+    "y": 979.99
+  },
+  {
+    "key": "JP:Prefecture:Yamanashi:95470973",
+    "x": 3244.71,
+    "y": 917.3
+  },
+  {
+    "key": "KR:Metropolitan City:Busan:13f8f94e",
+    "x": 2782.75,
+    "y": 934.51
+  },
+  {
+    "key": "KR:Province:Chungcheongbuk-do:a7508052",
+    "x": 2711.19,
+    "y": 866.3
+  },
+  {
+    "key": "KR:Province:Chungcheongnam-do:655ada93",
+    "x": 2676.57,
+    "y": 871.6
+  },
+  {
+    "key": "KR:Metropolitan City:Daegu:eb690973",
+    "x": 2759.79,
+    "y": 905.72
+  },
+  {
+    "key": "KR:Metropolitan City:Daejeon:26528ea2",
+    "x": 2702.19,
+    "y": 881.24
+  },
+  {
+    "key": "KR:Special Self-Governing Province:Gangwon-do:2d2deab8",
+    "x": 2742.01,
+    "y": 809.43
+  },
+  {
+    "key": "KR:Metropolitan City:Gwangju:5ca68d4b",
+    "x": 2675.73,
+    "y": 937.37
+  },
+  {
+    "key": "KR:Province:Gyeonggi-do:884296e1",
+    "x": 2703.93,
+    "y": 820.54
+  },
+  {
+    "key": "KR:Province:Gyeongsangbuk-do:c544cde4",
+    "x": 2762.54,
+    "y": 879.64
+  },
+  {
+    "key": "KR:Province:Gyeongsangnam-do:a1208ee8",
+    "x": 2747.42,
+    "y": 930.8
+  },
+  {
+    "key": "KR:Metropolitan City:Incheon:ac671720",
+    "x": 2657.59,
+    "y": 826.06
+  },
+  {
+    "key": "KR:Special Self-Governing Province:Jeju-do:c0a73876",
+    "x": 2662.49,
+    "y": 1022.34
+  },
+  {
+    "key": "KR:Special Self-Governing Province:Jeonbuk-do:9a0c7a9a",
+    "x": 2690.14,
+    "y": 910.13
+  },
+  {
+    "key": "KR:Province:Jeollanam-do:27ee690e",
+    "x": 2683.89,
+    "y": 950.01
+  },
+  {
+    "key": "KR:Special Self-Governing City:Sejong:d3a55bce",
+    "x": 2697.58,
+    "y": 869.67
+  },
+  {
+    "key": "KR:Special City:Seoul:5e1d59df",
+    "x": 2680.92,
+    "y": 821.68
+  },
+  {
+    "key": "KR:Metropolitan City:Ulsan:a81a82a1",
+    "x": 2790.07,
+    "y": 919.44
+  },
+  {
+    "key": "MN:Province:Arkhangai:3f07a1d3",
+    "x": 1412.82,
+    "y": 319.6
+  },
+  {
+    "key": "MN:Province:Bayan-Ölgii:21e862c5",
+    "x": 893.64,
+    "y": 308.59
+  },
+  {
+    "key": "MN:Province:Bayankhongor:f6a655dc",
+    "x": 1375.93,
+    "y": 457.51
+  },
+  {
+    "key": "MN:Province:Bulgan:0c76572a",
+    "x": 1541.52,
+    "y": 281.29
+  },
+  {
+    "key": "MN:Province:Darkhan-Uul:df3f92ac",
+    "x": 1692.13,
+    "y": 249.65
+  },
+  {
+    "key": "MN:Province:Dornod:5668378c",
+    "x": 2067.88,
+    "y": 305.63
+  },
+  {
+    "key": "MN:Province:Dornogovi:e976d05c",
+    "x": 1848.27,
+    "y": 488.39
+  },
+  {
+    "key": "MN:Province:Dundgovi:37e8364c",
+    "x": 1678.76,
+    "y": 440.13
+  },
+  {
+    "key": "MN:Province:Govi-Altai:49693729",
+    "x": 1185.72,
+    "y": 451.96
+  },
+  {
+    "key": "MN:Province:Govisümber:7c83eefd",
+    "x": 1798.22,
+    "y": 395.94
+  },
+  {
+    "key": "MN:Province:Khövsgöl:a9048daa",
+    "x": 1400.74,
+    "y": 215.87
+  },
+  {
+    "key": "MN:Province:Khentii:12c7920a",
+    "x": 1886.24,
+    "y": 334.5
+  },
+  {
+    "key": "MN:Province:Khovd:0e7df186",
+    "x": 1043.67,
+    "y": 369.96
+  },
+  {
+    "key": "MN:Province:Orkhon:ce547659",
+    "x": 1592.76,
+    "y": 271.96
+  },
+  {
+    "key": "MN:Province:Selenge:9fc5115b",
+    "x": 1750.31,
+    "y": 249.27
+  },
+  {
+    "key": "MN:Province:Sükhbaatar:2980f452",
+    "x": 2052.8,
+    "y": 403.32
+  },
+  {
+    "key": "MN:Province:Töv:d2960029",
+    "x": 1657.39,
+    "y": 332.33
+  },
+  {
+    "key": "MN:Municipality:Ulaanbaatar:93cd1342",
+    "x": 1721.84,
+    "y": 323.38
+  },
+  {
+    "key": "MN:Province:Uvs:a622eacb",
+    "x": 1045.94,
+    "y": 240.23
+  },
+  {
+    "key": "MN:Province:Zavkhan:79856291",
+    "x": 1209.4,
+    "y": 306.19
+  },
+  {
+    "key": "MN:Province:Ömnögovi:06cfa9aa",
+    "x": 1565.65,
+    "y": 541.47
+  },
+  {
+    "key": "MN:Province:Övörkhangai:dc63659a",
+    "x": 1509.67,
+    "y": 429.74
+  },
+  {
+    "key": "TW:County:Changhua:bff96953",
+    "x": 2371.77,
+    "y": 1472.38
+  },
+  {
+    "key": "TW:City:Chiayi:816c0db7",
+    "x": 2369.23,
+    "y": 1497.12
+  },
+  {
+    "key": "TW:County:Chiayi:ab3753ff",
+    "x": 2372.34,
+    "y": 1499.95
+  },
+  {
+    "key": "TW:City:Hsinchu:c2d2788c",
+    "x": 2394.48,
+    "y": 1434.47
+  },
+  {
+    "key": "TW:County:Hsinchu:a4037f7d",
+    "x": 2402.89,
+    "y": 1439.29
+  },
+  {
+    "key": "TW:County:Hualien:7a041f51",
+    "x": 2414.77,
+    "y": 1484.44
+  },
+  {
+    "key": "TW:Special Municipality:Kaohsiung:5e6d83f9",
+    "x": 2378.76,
+    "y": 1521.17
+  },
+  {
+    "key": "TW:City:Keelung:0b02213c",
+    "x": 2430.36,
+    "y": 1418.53
+  },
+  {
+    "key": "TW:County:Kinmen:d0eab912",
+    "x": 2270.47,
+    "y": 1450.71
+  },
+  {
+    "key": "TW:County:Lienchiang:9cafeaf2",
+    "x": 2347.67,
+    "y": 1365.81
+  },
+  {
+    "key": "TW:County:Miaoli:a5e8a17e",
+    "x": 2389.86,
+    "y": 1448.04
+  },
+  {
+    "key": "TW:County:Nantou:48dedc9c",
+    "x": 2392.8,
+    "y": 1479.24
+  },
+  {
+    "key": "TW:Special Municipality:New Taipei:99253018",
+    "x": 2433.69,
+    "y": 1424.83
+  },
+  {
+    "key": "TW:County:Penghu:961bb4d5",
+    "x": 2328.96,
+    "y": 1493.61
+  },
+  {
+    "key": "TW:County:Pingtung:ef8615fd",
+    "x": 2379.21,
+    "y": 1549.64
+  },
+  {
+    "key": "TW:Special Municipality:Taichung:87a111ba",
+    "x": 2386.88,
+    "y": 1461.73
+  },
+  {
+    "key": "TW:Special Municipality:Tainan:e1d28468",
+    "x": 2363.92,
+    "y": 1513.13
+  },
+  {
+    "key": "TW:Special Municipality:Taipei:c751fa14",
+    "x": 2422.6,
+    "y": 1420.26
+  },
+  {
+    "key": "TW:County:Taitung:1ed06d53",
+    "x": 2397.2,
+    "y": 1528.13
+  },
+  {
+    "key": "TW:Special Municipality:Taoyuan:a77136d6",
+    "x": 2407.94,
+    "y": 1431.1
+  },
+  {
+    "key": "TW:County:Yilan:36389a0c",
+    "x": 2426.85,
+    "y": 1441.79
+  },
+  {
+    "key": "TW:County:Yunlin:6862ce8f",
+    "x": 2367.11,
+    "y": 1488.18
+  },
+  {
+    "key": "KP:Province:Chagang:5427e1f3",
+    "x": 2668.69,
+    "y": 661.76
+  },
+  {
+    "key": "KP:Province:South Hamgyong:3b6cdf42",
+    "x": 2725.35,
+    "y": 695.61
+  },
+  {
+    "key": "KP:Province:North Hwanghae:9758a0ab",
+    "x": 2645.76,
+    "y": 778.59
+  },
+  {
+    "key": "KP:Province:South Hwanghae:105b42f2",
+    "x": 2608.47,
+    "y": 791.24
+  },
+  {
+    "key": "KP:Province:Kangwon:f6b49c3e",
+    "x": 2708.19,
+    "y": 762.99
+  },
+  {
+    "key": "KP:Province:North Hamgyong:7131396f",
+    "x": 2798.77,
+    "y": 618.43
+  },
+  {
+    "key": "KP:Province:North Pyongan:e0be1ea3",
+    "x": 2599.62,
+    "y": 699.33
+  },
+  {
+    "key": "KP:Province:South Pyongan:6bccc0af",
+    "x": 2638.11,
+    "y": 729.78
+  },
+  {
+    "key": "KP:Directly Governed City:Pyongyang:9a710217",
+    "x": 2623.13,
+    "y": 751.0
+  },
+  {
+    "key": "KP:Special City:Rason:04da658b",
+    "x": 2850.73,
+    "y": 590.14
+  },
+  {
+    "key": "KP:Province:Ryanggang:acad816b",
+    "x": 2735.36,
+    "y": 645.26
+  },
+  {
+    "key": "KP:Special City:Kaesong:445e30f8",
+    "x": 2661.29,
+    "y": 799.73
+  },
+  {
+    "key": "KP:Special City:Nampo:c6814498",
+    "x": 2602.07,
+    "y": 765.64
+  }
+]

@@ -1,62 +1,126 @@
-# 🚩 Region Occupation Simulator (East Asia)
+# Region Occupation Simulator — East Asia (ADMIN1) 🗺️⚔️  
+## v3 (Fog/첩보/민심)
 
-> [cite_start]**"지도 데이터 + 규칙 엔진"이 결합된 웹 기반 지역 점령 시뮬레이터**
 
-[cite_start]동아시아 6개국(한국, 북한, 일본, 중국, 대만, 몽골) 154개 지역을 배경으로 펼쳐지는 땅따먹기 시뮬레이션입니다.
-[cite_start]가볍게 판도를 그리는 **자유 점령 모드**와, AI와 경쟁하며 천하통일을 노리는 **턴제 게임 모드**를 제공합니다.
+동아시아(중국/일본/한국/북한/대만/몽골) **광역 행정구역(ADMIN1)** 지도를 캔버스로 띄우고,
+지역을 클릭해 **점령(소유자 변경)** 을 시각화하거나 **턴제 점령 게임(유저 vs AI)** 을 진행하는 로컬 웹 앱입니다.
 
-## 🛠 Tech Stack
-
-* [cite_start]**Server:** Spring Boot (Port: 8081)
-* [cite_start]**Client:** HTML5 Canvas + Pure JS (단일 화면 지도 UI)
-* [cite_start]**Database:** None (In-memory 상태 관리, 서버 재시작 시 초기화)
+- **Tech:** Java 21 · Spring Boot · Thymeleaf · Vanilla JS(Canvas)
+- **Port:** `8081` (기본값, `application.properties`)
 
 ---
 
-## 🎮 Game Modes
+## 기능 요약 ✨
 
-### 1. 자유 점령 (Paint Mode)
-[cite_start]전략 시뮬레이션의 판도 구상이나 설정을 위한 샌드박스 모드입니다.
-* [cite_start]**기능:** 지도 클릭 시 선택한 세력 색상으로 즉시 변경
-* [cite_start]**특징:** 복잡한 룰 없이 현황판처럼 사용 가능
+### 1) 자유 점령 모드 (Free Occupation)
+- 지도에서 지역 클릭 → 점령 주체 선택 → 해당 색으로 점령 표시
+- 점령 상태는 서버 인메모리로 유지(서버 재시작 시 초기화)
 
-### 2. 턴제 게임 (Turn-based Strategy)
-[cite_start]유저 1명과 AI(1~5 세력)가 경쟁하는 전략 게임 모드입니다.
-* [cite_start]**목표:** 154개 전체 지역 100% 점령 (중립 지역이 없어야 승리)
-* **진행:** 1턴 = 10일 경과. [cite_start]`PASS` 버튼으로 턴을 넘기면 생산/전투/AI 행동이 처리됩니다.
+### 2) 턴제 모드 (Turn-based: USER(A) vs AI)
+- 시작 지역 1개를 선택해 게임 시작
+- 주요 액션: 공격/이동/해상 이동/시설 건설/모집/턴 넘김
+- 공격/이동은 **인접 데이터(`adjacency.json`)** 를 기반으로 제한
 
----
-
-## ⚔️ Core Mechanics (Rules)
-
-기획서에 명시된 핵심 게임 규칙입니다.
-
-### 🗺️ Action (액션)
-* [cite_start]**이동/점령 (MOVE):** 인접한 지역으로 이동하며, 중립 지역은 즉시 점령합니다.
-* **공격 (ATTACK):** 적 지역으로 이동 시 전투가 발생합니다. (공격력/방어력 비율 2.0 이상 시 승리)
-* [cite_start]**해상 이동 (NAVAL):** 항구(PORT)가 있는 해안 지역끼리 이동 가능하며, 상륙전 실패 시 유닛은 파괴됩니다.
-* **시설 건설 (BUILD):** 금화를 소모하여 내정/군사 시설을 짓습니다. (턴당 1개 제한)
-* [cite_start]**징병 (RECRUIT):** MILITARY 시설이 있는 곳에서 인구 비례로 병력을 모집합니다.
-* [cite_start]**첩보 (SPY):** 전장의 안개(Fog of War) 지역을 정찰하여 정보를 갱신합니다.
-
-### 🏗️ Facilities (시설)
-* [cite_start]**ADMIN:** 민심 대폭 상승 (+10)
-* [cite_start]**ECONOMY:** 민심/안정 상승 및 금화 생산량 보정
-* [cite_start]**MILITARY:** 안정도 상승, 징병 가능, 전투 시 공/방 보정
-* [cite_start]**PORT:** 해상 이동 가능
-* [cite_start]**WALL:** 방어력 1.4배 증가
-
-### 💰 Economy & Tech (경제/기술)
-* **자원:** `GOLD` 단일 자원. [cite_start]지역 생산량과 민심에 따라 수급됩니다.
-* **기술:** 점령지 평균 민심 90 이상일 때 기술 포인트 획득. (TAX, STEEL, CRYPTO 연구 가능)
+### 3) 클릭 판정 방식 (Pixel ID Map)
+폴리곤(GIS) 대신 **픽셀 ID 맵(PNG)** 을 사용합니다.
+- 클릭한 픽셀의 RGB → ID 변환 → 지역 키 매핑 → 해당 지역을 “선택/점령” 처리
 
 ---
 
-## 🚀 How to Run
+## 빠른 실행 🚀
 
-1.  Repository를 Clone 합니다.
-2.  Spring Boot 프로젝트를 실행합니다.
-3.  [cite_start]브라우저에서 `http://localhost:8081/map` 로 접속합니다.
-4.  **자유 점령** 혹은 **턴제 게임** 모드를 선택하여 시작합니다.
+### 요구사항
+- Java 21+
 
-> **Note:** 별도의 DB 설치가 필요 없습니다. [cite_start]모든 데이터는 서버 메모리에서 관리되므로 서버 종료 시 진행 상황은 리셋됩니다. [cite: 8, 232]
+### 실행
+```bash
+./mvnw spring-boot:run
+```
+
+> 만약 GitHub 웹 업로드 때문에 `.mvn/` 폴더가 누락되어 `mvnw`가 동작하지 않으면, 로컬에 Maven이 설치된 경우 아래로도 실행 가능합니다:
+
+```bash
+mvn spring-boot:run
+```
+
+브라우저 접속:
+- `http://localhost:8081/`
+- `http://localhost:8081/map`
+
+> 참고: `server.port`는 `src/main/resources/application.properties`에서 변경할 수 있습니다.
+
+---
+
+## 콘솔 데모 & 테스트 🧪
+
+### 1) 콘솔 데모(서버 없이 규칙 빠르게 확인)
+```bash
+./mvnw -q exec:java
+```
+
+(대체)
+```bash
+mvn -q exec:java
+```
+
+### 2) JUnit 테스트
+```bash
+./mvnw -q test
+```
+
+(대체)
+```bash
+mvn -q test
+```
+
+---
+
+## 데이터 파일 🗂️
+정적 데이터: `src/main/resources/static/data/`
+- `regions.json` : 지역 메타(키/표시명/국가 등)
+- `owners.json` : 점령 주체(색상 포함)
+- `adjacency.json` : 지상 인접 그래프(공격/이동 전제)
+- `region_stats.json` : 지역 스탯(자원/생산 등)
+- `sea_zones.json` : 해상 권역(표기/규칙 보조)
+
+---
+
+## 문서 📄
+- `docs/00_EXEC_SUMMARY.md` : 실행/요약
+- `docs/01_RULEBOOK.md` : 규칙서(코드와 대응)
+- `docs/02_DATA_DICTIONARY.md` : 데이터 사전
+- `docs/03_SCENARIOS.md` : 시나리오
+- `docs/04_DECISION_TRACE.md` : 의사결정 근거
+
+---
+
+## 폴더 구조 한눈에 보기 👀
+- `src/main/java/com/green/regionoccupation/`
+  - `controller/` : 점령/인접/게임 API
+  - `service/` : 턴제 규칙/지리 규칙/점령 로직
+  - `repository/` : JSON 로딩 + 인메모리 상태
+  - `runner/ConsoleRunner.java` : 콘솔 데모 엔트리
+- `src/main/resources/templates/` : `map.html`
+- `src/main/resources/static/` : `js/`, `css/`, `data/`
+
+---
+
+## GitHub 웹 업로드 팁 💡
+웹 업로드를 쓸 경우, `.mvn/` 같은 **점(.) 폴더가 숨김 처리**되어 누락될 수 있습니다.
+- Windows 탐색기에서 **숨김 항목 표시**를 켠 뒤 업로드하거나,
+- 가장 확실하게는 **Git push**로 올리면 누락 없이 업로드됩니다.
+
+---
+
+## License
+MIT License. See `LICENSE`.
+
+
+---
+
+## v3에서 적용된 UI/규칙 ✅
+
+- **Bottom Info Panel**: 지도 클릭 시 하단 패널에 지역 정보 표시(FOG 적용)
+- **Fog of War(간소)**: 내 영토 + 인접 지역만 '보임', 그 외는 **마지막 관측**(있으면 `~값`) 또는 `???`
+- **첩보(SPY)**: 선택한 target 지역을 관측해 **마지막 관측 정보**로 저장
+- **민심/반란(간소)**: support에 따라 생산량 보정(v2.1 표) + support<20이면 25% 확률로 중립화
